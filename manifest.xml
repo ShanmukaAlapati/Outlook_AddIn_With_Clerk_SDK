@@ -3,7 +3,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:type="MailApp">
 
-  <Id>YOUR-UNIQUE-GUID-HERE</Id>
+  <Id>a1b2c3d4-e5f6-7890-abcd-ef1234567890</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Case Counsel</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
@@ -21,19 +21,23 @@
   </Requirements>
 
   <AppDomains>
+    <AppDomain>https://outlook-addin-with-clerk-sdk-1.onrender.com</AppDomain>
+    <AppDomain>https://outlook-addin-with-clerk-sdk.onrender.com</AppDomain>
+    <AppDomain>https://accounts.clerk.dev</AppDomain>
     <AppDomain>http://localhost:3000</AppDomain>
   </AppDomains>
 
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="http://localhost:3000/taskpane" />
+        <SourceLocation DefaultValue="https://outlook-addin-with-clerk-sdk-1.onrender.com/taskpane" />
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
   </FormSettings>
 
   <Permissions>ReadWriteItem</Permissions>
+
   <Rule xsi:type="RuleCollection" Mode="Or">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
   </Rule>
