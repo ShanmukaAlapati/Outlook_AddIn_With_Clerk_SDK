@@ -1,0 +1,3 @@
+[2026-03-02 18:14:21] [INFO] Starting Case Counsel API on port=5000, debug=True
+[2026-03-02 18:14:21] [INFO] Starting Case Counsel API on port=5000, debug=True
+[2026-03-02 18:15:40] [INFO] Starting Case Counsel API on port=5000, debug=True
