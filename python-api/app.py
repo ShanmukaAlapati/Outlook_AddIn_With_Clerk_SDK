@@ -15,10 +15,12 @@ log = logging.getLogger("case-counsel-api")
 app = Flask(__name__)
 
 CORS(app, resources={r"/api/*": {"origins": [
+    "http://localhost:3000",
     "https://localhost:3000",
-    "https://outlook.office.com",
     "https://outlook-addin-with-clerk-sdk.onrender.com",
+    "https://outlook.office.com",
 ]}})
+
 
 clerk = Clerk(bearer_auth=os.getenv("CLERK_SECRET_KEY", ""))
 
