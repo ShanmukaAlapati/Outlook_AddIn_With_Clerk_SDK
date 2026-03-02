@@ -1,0 +1,53 @@
+[2026-02-26 13:11:33] [INFO] Startup: Ensuring database schema...
+[2026-02-26 13:11:35] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-26 13:11:35] [INFO] Startup: Ensuring field definitions table...
+[2026-02-26 13:11:38] [INFO] create_field_definitions_table: field_definitions table ensured
+[2026-02-26 13:11:38] [INFO] Startup: Ensuring matters tables...
+[2026-02-26 13:11:42] [INFO] create_matters_table: matters table schema ensured
+[2026-02-26 13:11:42] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-26 13:11:43] [INFO] Startup: Ensuring database schema...
+[2026-02-26 13:11:46] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-26 13:11:46] [INFO] Startup: Ensuring field definitions table...
+[2026-02-26 13:11:48] [INFO] create_field_definitions_table: field_definitions table ensured
+[2026-02-26 13:11:48] [INFO] Startup: Ensuring matters tables...
+[2026-02-26 13:11:53] [INFO] create_matters_table: matters table schema ensured
+[2026-02-26 13:11:53] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-26 13:13:00] [INFO] check_user: Endpoint called
+[2026-02-26 13:13:00] [INFO] check_user: Token extracted, length=797
+[2026-02-26 13:13:00] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-26 13:13:00] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-26 13:13:00] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-26 13:13:00] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-26 13:13:00] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-26 13:13:00] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-26 13:13:00] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-26 13:13:00] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-26 13:13:00] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3A4UBJslzxFdZsRW36BLPQPE6JG, org_id=None, org_role=None
+[2026-02-26 13:13:00] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-26 13:13:00] [INFO] get_clerk_user_data: Fetching data for user_id=user_3A4UBJslzxFdZsRW36BLPQPE6JG
+[2026-02-26 13:13:01] [INFO] get_clerk_user_data: Successfully fetched data for user_3A4UBJslzxFdZsRW36BLPQPE6JG
+[2026-02-26 13:13:01] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-26 13:13:01] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-26 13:13:01] [INFO] check_user: Token verified successfully, user_id=user_3A4UBJslzxFdZsRW36BLPQPE6JG
+[2026-02-26 13:13:01] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-26 13:13:02] [INFO] db_stats: Fetching database statistics
+[2026-02-26 13:13:02] [INFO] get_db_stats: Fetching database statistics
+[2026-02-26 13:13:03] [INFO] get_db_stats: {'total': 13, 'pending': 3, 'approved': 8, 'rejected': 2}
+[2026-02-26 13:13:03] [INFO] db_stats: Fetching database statistics
+[2026-02-26 13:13:03] [INFO] get_db_stats: Fetching database statistics
+[2026-02-26 13:13:05] [INFO] get_db_stats: {'total': 13, 'pending': 3, 'approved': 8, 'rejected': 2}
+[2026-02-26 13:13:05] [INFO] get_signups: Fetching all signups
+[2026-02-26 13:13:05] [INFO] list_org_signups: Fetching all signups
+[2026-02-26 13:13:07] [INFO] list_org_signups: Found 13 signups
+[2026-02-26 13:13:07] [INFO] get_signups: Fetching all signups
+[2026-02-26 13:13:07] [INFO] list_org_signups: Fetching all signups
+[2026-02-26 13:13:08] [INFO] list_org_signups: Found 13 signups
+[2026-02-26 13:14:03] [INFO] get_signups: Fetching all signups
+[2026-02-26 13:14:03] [INFO] list_org_signups: Fetching all signups
+[2026-02-26 13:14:05] [INFO] list_org_signups: Found 13 signups
+[2026-02-26 13:14:05] [INFO] get_signups: Fetching all signups
+[2026-02-26 13:14:05] [INFO] list_org_signups: Fetching all signups
+[2026-02-26 13:14:07] [INFO] list_org_signups: Found 13 signups
+[2026-02-26 13:15:20] [INFO] get_org_members: Fetching members for org org_3ACEBeYS6vRT9VXfrgZkkMdXnFC
+[2026-02-26 13:15:21] [INFO] list_organization_members: Listed members for org org_3ACEBeYS6vRT9VXfrgZkkMdXnFC
+[2026-02-26 13:15:21] [INFO] get_org_members: Returning 1 members for org org_3ACEBeYS6vRT9VXfrgZkkMdXnFC

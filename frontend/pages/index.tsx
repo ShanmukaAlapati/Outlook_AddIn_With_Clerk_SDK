@@ -1,9 +1,14 @@
-import { GetServerSideProps } from "next";
+// pages/index.tsx
+import { useEffect } from "react";
+import { useAuth } from "@clerk/nextjs";
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  return {
-    redirect: { destination: "/sign-in", permanent: false },
-  };
-};
+export default function Index() {
+  const { isLoaded, isSignedIn } = useAuth();
 
-export default function Home() { return null; }
+  useEffect(() => {
+    if (!isLoaded) return;
+    window.location.href = isSignedIn ? "/app" : "/sign-in";
+  }, [isLoaded, isSignedIn]);
+
+  return null;
+}

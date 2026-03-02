@@ -1,9 +1,11 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
-// Minimal — no redirects. Pages handle their own auth.
-// Office.js breaks App Router's window.history, so we use Pages Router.
-export default clerkMiddleware();
+const isPublicRoute = createRouteMatcher(["/sign-in(.*)", "/sign-up(.*)"]);
+
+export default clerkMiddleware((auth, req) => {
+  if (!isPublicRoute(req)) auth().protect();
+});
 
 export const config = {
-  matcher: ["/((?!_next|.*\\..*).*)"],
+  matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 };

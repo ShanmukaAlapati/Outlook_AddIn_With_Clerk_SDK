@@ -1,0 +1,842 @@
+[2026-02-18 12:00:06] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:01:25] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771329769911, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 12:01:27] [INFO] approve_signup_service: Approving signup 1771329769911
+[2026-02-18 12:01:27] [INFO] get_signup_by_id: Fetching signup 1771329769911
+[2026-02-18 12:01:29] [INFO] get_signup_by_id: Found signup 1771329769911
+[2026-02-18 12:01:29] [INFO] approve_signup_service: signup loaded email=koppanapavansai@gmail.com, org_name=My  organisation, clerk_org_id=None
+[2026-02-18 12:01:33] [INFO] get_or_create_clerk_user: Error listing users for koppanapavansai@gmail.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 12:01:33] [INFO] get_or_create_clerk_user: User koppanapavansai@gmail.com already exists during create, fetching...
+[2026-02-18 12:01:33] [INFO] approve_signup_service: Error approving signup 1771329769911 - Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 12:01:33] [INFO] approve_signup_endpoint: Result={'error': "Users.list() got an unexpected keyword argument 'email_address'"}, Status=500
+[2026-02-18 12:22:33] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:22:33] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:22:33] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:33] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:39] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:39] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:45] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:45] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:51] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:52] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:57] [INFO] Serving static file: socket.io/
+[2026-02-18 12:22:57] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:03] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:03] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:09] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:09] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:15] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:16] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:21] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:21] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:27] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:27] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:33] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:33] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:39] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:39] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:45] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:45] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:51] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:51] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:57] [INFO] Serving static file: socket.io/
+[2026-02-18 12:23:57] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:03] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:04] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:09] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:09] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:15] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:16] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:21] [INFO] Serving static file: socket.io/
+[2026-02-18 12:24:21] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:07] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:26:08] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:26:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:26:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:12] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:54] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:27:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:06] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:11] [INFO] check_user: Endpoint called
+[2026-02-18 12:28:11] [INFO] check_user: Token extracted, length=797
+[2026-02-18 12:28:11] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 12:28:11] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 12:28:11] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-18 12:28:11] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-18 12:28:11] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-18 12:28:11] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 12:28:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:12] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 12:28:12] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 12:28:12] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pbmlFw1DZZyd49fYBRJB5gxr7, org_id=None, org_role=None
+[2026-02-18 12:28:12] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 12:28:12] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pbmlFw1DZZyd49fYBRJB5gxr7
+[2026-02-18 12:28:12] [INFO] get_clerk_user_data: Successfully fetched data for user_39pbmlFw1DZZyd49fYBRJB5gxr7
+[2026-02-18 12:28:12] [INFO] verify_and_decode_clerk_token: Regular user - role=None
+[2026-02-18 12:28:12] [INFO] verify_and_decode_clerk_token: Complete - user=koppanapavansai@gmail.com, role=None
+[2026-02-18 12:28:12] [INFO] check_user: Token verified successfully, user_id=user_39pbmlFw1DZZyd49fYBRJB5gxr7
+[2026-02-18 12:28:12] [INFO] check_user: Response prepared - role=None
+[2026-02-18 12:28:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:28:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:42] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:29:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:10] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:30:11] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:30:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:12] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:30] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:41] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:48] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:30:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:00] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:11] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:12] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:17] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:23] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:29] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:35] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:42] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:42] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:47] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:48] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:53] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:54] [INFO] Serving static file: socket.io/
+[2026-02-18 12:31:59] [INFO] Serving static file: socket.io/
+[2026-02-18 12:32:00] [INFO] Serving static file: socket.io/
+[2026-02-18 12:32:05] [INFO] Serving static file: socket.io/
+[2026-02-18 12:32:06] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:19] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:37:34] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:37:35] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:37:40] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:40] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:45] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:46] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:51] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:52] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:57] [INFO] Serving static file: socket.io/
+[2026-02-18 12:37:58] [INFO] Serving static file: socket.io/
+[2026-02-18 12:38:03] [INFO] Serving static file: socket.io/
+[2026-02-18 12:38:04] [INFO] Serving static file: socket.io/
+[2026-02-18 12:46:48] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:46:49] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-18 12:46:49] [INFO] Serving static file: socket.io/
+[2026-02-18 12:46:49] [INFO] Serving static file: socket.io/
+[2026-02-18 12:46:54] [INFO] Serving static file: socket.io/
+[2026-02-18 12:46:54] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:00] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:00] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:06] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:06] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:12] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:12] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:18] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:18] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:24] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:24] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:30] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:30] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:36] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:36] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:42] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:42] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:48] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:48] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:54] [INFO] Serving static file: socket.io/
+[2026-02-18 12:47:54] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:00] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:00] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:06] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:06] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:12] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:13] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:18] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:18] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:24] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:24] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:30] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:31] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:36] [INFO] Serving static file: socket.io/
+[2026-02-18 12:48:36] [INFO] Serving static file: socket.io/
+[2026-02-18 12:50:44] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 12:50:45] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 12:50:45] [INFO] Client connected via Socket.IO
+[2026-02-18 12:50:45] [INFO] Client connected via Socket.IO
+[2026-02-18 12:51:37] [INFO] check_user: Endpoint called
+[2026-02-18 12:51:37] [INFO] check_user: Token extracted, length=798
+[2026-02-18 12:51:37] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 12:51:37] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 12:51:37] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-18 12:51:37] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-18 12:51:37] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-18 12:51:37] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 12:51:37] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 12:51:37] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 12:51:37] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pbmlFw1DZZyd49fYBRJB5gxr7, org_id=None, org_role=None
+[2026-02-18 12:51:37] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 12:51:37] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pbmlFw1DZZyd49fYBRJB5gxr7
+[2026-02-18 12:51:38] [INFO] get_clerk_user_data: Successfully fetched data for user_39pbmlFw1DZZyd49fYBRJB5gxr7
+[2026-02-18 12:51:38] [INFO] verify_and_decode_clerk_token: Regular user - role=None
+[2026-02-18 12:51:38] [INFO] verify_and_decode_clerk_token: Complete - user=koppanapavansai@gmail.com, role=None
+[2026-02-18 12:51:38] [INFO] check_user: Token verified successfully, user_id=user_39pbmlFw1DZZyd49fYBRJB5gxr7
+[2026-02-18 12:51:38] [INFO] check_user: Response prepared - role=None
+[2026-02-18 12:52:24] [INFO] check_user: Endpoint called
+[2026-02-18 12:52:24] [INFO] check_user: Token extracted, length=797
+[2026-02-18 12:52:24] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 12:52:24] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 12:52:24] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 12:52:24] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 12:52:24] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 12:52:24] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 12:52:24] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI, org_id=None, org_role=None
+[2026-02-18 12:52:24] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 12:52:24] [INFO] get_clerk_user_data: Fetching data for user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 12:52:25] [INFO] get_clerk_user_data: Successfully fetched data for user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 12:52:25] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-18 12:52:25] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-18 12:52:25] [INFO] check_user: Token verified successfully, user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 12:52:25] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-18 12:52:26] [INFO] db_stats: Fetching database statistics
+[2026-02-18 12:52:26] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 12:52:28] [INFO] get_db_stats: {'total': 17, 'pending': 3, 'approved': 14, 'rejected': 0}
+[2026-02-18 12:52:28] [INFO] db_stats: Fetching database statistics
+[2026-02-18 12:52:28] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 12:52:28] [INFO] get_signups: Fetching all signups
+[2026-02-18 12:52:28] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 12:52:30] [INFO] list_org_signups: Found 17 signups
+[2026-02-18 12:52:30] [INFO] get_db_stats: {'total': 17, 'pending': 3, 'approved': 14, 'rejected': 0}
+[2026-02-18 12:52:30] [INFO] get_signups: Fetching all signups
+[2026-02-18 12:52:30] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 12:52:31] [INFO] list_org_signups: Found 17 signups
+[2026-02-18 12:52:37] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771332562781, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 12:52:38] [INFO] approve_signup_service: Approving signup 1771332562781
+[2026-02-18 12:52:38] [INFO] get_signup_by_id: Fetching signup 1771332562781
+[2026-02-18 12:52:40] [INFO] get_signup_by_id: Found signup 1771332562781
+[2026-02-18 12:52:40] [INFO] approve_signup_service: signup loaded email=koppanasrikanth@gmail.com, org_name=bob, clerk_org_id=None
+[2026-02-18 12:52:40] [INFO] get_or_create_clerk_user: Error listing users for koppanasrikanth@gmail.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 12:52:41] [INFO] get_or_create_clerk_user: User koppanasrikanth@gmail.com already exists during create, fetching...
+[2026-02-18 12:52:41] [INFO] approve_signup_service: Error approving signup 1771332562781 - Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 12:52:41] [INFO] approve_signup_endpoint: Result={'error': "Users.list() got an unexpected keyword argument 'email_address'"}, Status=500
+[2026-02-18 12:53:31] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771329769911, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 12:53:32] [INFO] approve_signup_service: Approving signup 1771329769911
+[2026-02-18 12:53:32] [INFO] get_signup_by_id: Fetching signup 1771329769911
+[2026-02-18 12:53:34] [INFO] get_signup_by_id: Found signup 1771329769911
+[2026-02-18 12:53:34] [INFO] approve_signup_service: signup loaded email=koppanapavansai@gmail.com, org_name=My  organisation, clerk_org_id=None
+[2026-02-18 12:53:34] [INFO] get_or_create_clerk_user: Error listing users for koppanapavansai@gmail.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 12:53:34] [INFO] get_or_create_clerk_user: User koppanapavansai@gmail.com already exists during create, fetching...
+[2026-02-18 12:53:34] [INFO] approve_signup_service: Error approving signup 1771329769911 - Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 12:53:34] [INFO] approve_signup_endpoint: Result={'error': "Users.list() got an unexpected keyword argument 'email_address'"}, Status=500
+[2026-02-18 12:58:13] [INFO] db_stats: Fetching database statistics
+[2026-02-18 12:58:13] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 12:58:15] [INFO] get_db_stats: {'total': 17, 'pending': 3, 'approved': 14, 'rejected': 0}
+[2026-02-18 12:58:15] [INFO] db_stats: Fetching database statistics
+[2026-02-18 12:58:15] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 12:58:15] [INFO] get_signups: Fetching all signups
+[2026-02-18 12:58:15] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 12:58:17] [INFO] get_db_stats: {'total': 17, 'pending': 3, 'approved': 14, 'rejected': 0}
+[2026-02-18 12:58:17] [INFO] list_org_signups: Found 17 signups
+[2026-02-18 12:58:17] [INFO] get_signups: Fetching all signups
+[2026-02-18 12:58:17] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 12:58:19] [INFO] list_org_signups: Found 17 signups
+[2026-02-18 13:01:25] [INFO] register_org: Endpoint called
+[2026-02-18 13:01:25] [INFO] register_org: Validation passed for email=kinilid251@iaciu.com
+[2026-02-18 13:01:27] [INFO] check_email_exists: Email kinilid251@iaciu.com exists - id=1771304616844, status=approved
+[2026-02-18 13:03:41] [INFO] register_org: Endpoint called
+[2026-02-18 13:03:41] [INFO] register_org: Validation passed for email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com
+[2026-02-18 13:03:42] [INFO] check_email_exists: Email a.k.a.g.g.skz.s.jd.vc.r@gmail.com not found
+[2026-02-18 13:03:44] [INFO] create_signup: Creating signup for email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com
+[2026-02-18 13:03:45] [INFO] create_signup: Signup created successfully - id=1771400022689
+[2026-02-18 13:03:45] [INFO] register_org: Signup created - id=1771400022689
+[2026-02-18 13:04:07] [INFO] check_user: Endpoint called
+[2026-02-18 13:04:07] [INFO] check_user: Token extracted, length=797
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:04:07] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:04:07] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI, org_id=None, org_role=None
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:04:07] [INFO] get_clerk_user_data: Fetching data for user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:04:07] [INFO] get_clerk_user_data: Successfully fetched data for user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-18 13:04:07] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-18 13:04:07] [INFO] check_user: Token verified successfully, user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:04:07] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-18 13:04:08] [INFO] db_stats: Fetching database statistics
+[2026-02-18 13:04:08] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 13:04:09] [INFO] get_db_stats: {'total': 18, 'pending': 4, 'approved': 14, 'rejected': 0}
+[2026-02-18 13:04:09] [INFO] db_stats: Fetching database statistics
+[2026-02-18 13:04:09] [INFO] get_signups: Fetching all signups
+[2026-02-18 13:04:09] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 13:04:09] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 13:04:11] [INFO] list_org_signups: Found 18 signups
+[2026-02-18 13:04:11] [INFO] get_db_stats: {'total': 18, 'pending': 4, 'approved': 14, 'rejected': 0}
+[2026-02-18 13:04:11] [INFO] get_signups: Fetching all signups
+[2026-02-18 13:04:11] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 13:04:13] [INFO] list_org_signups: Found 18 signups
+[2026-02-18 13:04:16] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771400022689, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 13:04:17] [INFO] approve_signup_service: Approving signup 1771400022689
+[2026-02-18 13:04:17] [INFO] get_signup_by_id: Fetching signup 1771400022689
+[2026-02-18 13:04:19] [INFO] get_signup_by_id: Found signup 1771400022689
+[2026-02-18 13:04:19] [INFO] approve_signup_service: signup loaded email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com, org_name=aaa, clerk_org_id=None
+[2026-02-18 13:04:19] [INFO] get_or_create_clerk_user: Error listing users for a.k.a.g.g.skz.s.jd.vc.r@gmail.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 13:04:19] [INFO] get_or_create_clerk_user: Created new user user_39pjlushmn0pdUJWP0otlI6AvDY for a.k.a.g.g.skz.s.jd.vc.r@gmail.com with level None
+[2026-02-18 13:04:19] [INFO] approve_signup_service: Creating new org with created_by=user_39pjlushmn0pdUJWP0otlI6AvDY for email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com
+[2026-02-18 13:04:19] [INFO] create_clerk_org: Creating org 'aaa' for admin user_39pjlushmn0pdUJWP0otlI6AvDY
+[2026-02-18 13:04:19] [INFO] create_clerk_org: Error details - OrganizationsSDK.create() got an unexpected keyword argument 'name'
+[2026-02-18 13:04:19] [INFO] create_clerk_org: Trying alternative API call without problematic parameters
+[2026-02-18 13:04:20] [INFO] create_clerk_org: Alternative API call also failed - OrganizationsSDK.create() got an unexpected keyword argument 'name'
+[2026-02-18 13:04:20] [INFO] approve_signup_service: Error approving signup 1771400022689 - Failed to create Clerk organization: OrganizationsSDK.create() got an unexpected keyword argument 'name'
+[2026-02-18 13:04:20] [INFO] approve_signup_endpoint: Result={'error': "Failed to create Clerk organization: OrganizationsSDK.create() got an unexpected keyword argument 'name'"}, Status=500
+[2026-02-18 13:12:18] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:12:19] [INFO] Client connected via Socket.IO
+[2026-02-18 13:12:20] [INFO] Client connected via Socket.IO
+[2026-02-18 13:12:53] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:12:54] [INFO] Client connected via Socket.IO
+[2026-02-18 13:12:55] [INFO] Client connected via Socket.IO
+[2026-02-18 13:13:21] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:13:22] [INFO] Client connected via Socket.IO
+[2026-02-18 13:13:22] [INFO] Client connected via Socket.IO
+[2026-02-18 13:13:50] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:13:51] [INFO] Client connected via Socket.IO
+[2026-02-18 13:13:51] [INFO] Client connected via Socket.IO
+[2026-02-18 13:14:03] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:14:05] [INFO] Client connected via Socket.IO
+[2026-02-18 13:14:05] [INFO] Client connected via Socket.IO
+[2026-02-18 13:14:57] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:14:58] [INFO] Client connected via Socket.IO
+[2026-02-18 13:14:58] [INFO] Client connected via Socket.IO
+[2026-02-18 13:15:01] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:15:02] [INFO] Client connected via Socket.IO
+[2026-02-18 13:15:02] [INFO] Client connected via Socket.IO
+[2026-02-18 13:15:29] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:15:30] [INFO] Client connected via Socket.IO
+[2026-02-18 13:15:31] [INFO] Client connected via Socket.IO
+[2026-02-18 13:15:57] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:16:00] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:16:00] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:16:00] [INFO] Client connected via Socket.IO
+[2026-02-18 13:16:00] [INFO] Client connected via Socket.IO
+[2026-02-18 13:16:48] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:16:50] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:16:50] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:16:52] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:16:54] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:16:54] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:16:54] [INFO] Client connected via Socket.IO
+[2026-02-18 13:16:54] [INFO] Client connected via Socket.IO
+[2026-02-18 13:18:18] [INFO] register_org: Endpoint called
+[2026-02-18 13:18:18] [INFO] register_org: Validation passed for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:18:20] [INFO] check_email_exists: Email geo6ze_hc@pdf-cutter.com not found
+[2026-02-18 13:18:20] [INFO] register_org: Creating Clerk user for geo6ze_hc@pdf-cutter.com with password
+[2026-02-18 13:18:20] [INFO] get_or_create_clerk_user: Error listing users for geo6ze_hc@pdf-cutter.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 13:18:22] [INFO] get_or_create_clerk_user: Error creating user geo6ze_hc@pdf-cutter.com: {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"c2f3cb38f43dbcea2256b0c09441a3e1"}
+[2026-02-18 13:18:22] [INFO] register_org: Unexpected error - {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"c2f3cb38f43dbcea2256b0c09441a3e1"}
+[2026-02-18 13:19:31] [INFO] register_org: Endpoint called
+[2026-02-18 13:19:31] [INFO] register_org: Validation passed for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:19:32] [INFO] check_email_exists: Email geo6ze_hc@pdf-cutter.com not found
+[2026-02-18 13:19:32] [INFO] register_org: Creating Clerk user for geo6ze_hc@pdf-cutter.com with password
+[2026-02-18 13:19:32] [INFO] get_or_create_clerk_user: Error listing users for geo6ze_hc@pdf-cutter.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-18 13:19:33] [INFO] get_or_create_clerk_user: Error creating user geo6ze_hc@pdf-cutter.com: {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"da9c4fbeb903ac8d6399eef47586c8a9"}
+[2026-02-18 13:19:33] [INFO] register_org: Unexpected error - {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"da9c4fbeb903ac8d6399eef47586c8a9"}
+[2026-02-18 13:20:40] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:20:42] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:20:42] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:20:42] [INFO] Client connected via Socket.IO
+[2026-02-18 13:20:42] [INFO] Client connected via Socket.IO
+[2026-02-18 13:21:10] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:21:12] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:21:12] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:21:12] [INFO] Client connected via Socket.IO
+[2026-02-18 13:21:12] [INFO] Client connected via Socket.IO
+[2026-02-18 13:21:47] [INFO] register_org: Endpoint called
+[2026-02-18 13:21:47] [INFO] register_org: Validation passed for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:21:49] [INFO] check_email_exists: Email geo6ze_hc@pdf-cutter.com not found
+[2026-02-18 13:21:49] [INFO] register_org: Creating Clerk user for geo6ze_hc@pdf-cutter.com with password
+[2026-02-18 13:21:49] [INFO] get_or_create_clerk_user: Error listing users for geo6ze_hc@pdf-cutter.com: Users.list() got an unexpected keyword argument 'email_addresses'
+[2026-02-18 13:21:49] [INFO] get_or_create_clerk_user: Error creating user geo6ze_hc@pdf-cutter.com: Users.create() got an unexpected keyword argument 'email_addresses'
+[2026-02-18 13:21:49] [INFO] register_org: Unexpected error - Users.create() got an unexpected keyword argument 'email_addresses'
+[2026-02-18 13:22:32] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:22:34] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:22:34] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:22:34] [INFO] Client connected via Socket.IO
+[2026-02-18 13:22:34] [INFO] Client connected via Socket.IO
+[2026-02-18 13:23:54] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:23:56] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:23:56] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:23:56] [INFO] Client connected via Socket.IO
+[2026-02-18 13:23:56] [INFO] Client connected via Socket.IO
+[2026-02-18 13:24:38] [INFO] register_org: Endpoint called
+[2026-02-18 13:24:38] [INFO] register_org: Validation passed for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:24:40] [INFO] check_email_exists: Email geo6ze_hc@pdf-cutter.com not found
+[2026-02-18 13:24:40] [INFO] register_org: Creating Clerk user for geo6ze_hc@pdf-cutter.com with password
+[2026-02-18 13:24:42] [INFO] get_or_create_clerk_user: Error creating user geo6ze_hc@pdf-cutter.com: {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"9817e36dc37cc498270d5b367f89f055"}
+[2026-02-18 13:24:42] [INFO] register_org: Unexpected error - {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"9817e36dc37cc498270d5b367f89f055"}
+[2026-02-18 13:25:01] [INFO] register_org: Endpoint called
+[2026-02-18 13:25:01] [INFO] register_org: Validation passed for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:25:03] [INFO] check_email_exists: Email geo6ze_hc@pdf-cutter.com not found
+[2026-02-18 13:25:03] [INFO] register_org: Creating Clerk user for geo6ze_hc@pdf-cutter.com with password
+[2026-02-18 13:25:04] [INFO] get_or_create_clerk_user: Error creating user geo6ze_hc@pdf-cutter.com: {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"24276f59e8b4b8bb20864e3c2c7d2dc1"}
+[2026-02-18 13:25:04] [INFO] register_org: Unexpected error - {"errors":[{"message":"Password has been found in an online data breach. For account safety, please use a different password.","long_message":"Password has been found in an online data breach. For account safety, please use a different password.","code":"form_password_pwned","meta":{"param_name":"password"}}],"clerk_trace_id":"24276f59e8b4b8bb20864e3c2c7d2dc1"}
+[2026-02-18 13:26:27] [INFO] register_org: Endpoint called
+[2026-02-18 13:26:27] [INFO] register_org: Validation passed for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:26:29] [INFO] check_email_exists: Email geo6ze_hc@pdf-cutter.com not found
+[2026-02-18 13:26:29] [INFO] register_org: Creating Clerk user for geo6ze_hc@pdf-cutter.com with password
+[2026-02-18 13:26:30] [INFO] get_or_create_clerk_user: Created new user user_39pmT8SxdRTJZt32Qh2FbD6ADke for geo6ze_hc@pdf-cutter.com with level None (password set: True)
+[2026-02-18 13:26:30] [INFO] register_org: Clerk user created/fetched - id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:26:32] [INFO] create_signup: Creating signup for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:26:33] [INFO] create_signup: Signup created successfully - id=1771401389464
+[2026-02-18 13:26:33] [INFO] register_org: Signup created - id=1771401389464
+[2026-02-18 13:26:53] [INFO] check_user: Endpoint called
+[2026-02-18 13:26:53] [INFO] check_user: Token extracted, length=798
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:26:53] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:26:53] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-18 13:26:53] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-18 13:26:53] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI, org_id=None, org_role=None
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:26:53] [INFO] get_clerk_user_data: Fetching data for user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:26:53] [INFO] get_clerk_user_data: Successfully fetched data for user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-18 13:26:53] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-18 13:26:53] [INFO] check_user: Token verified successfully, user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:26:53] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-18 13:26:54] [INFO] db_stats: Fetching database statistics
+[2026-02-18 13:26:54] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 13:26:56] [INFO] get_db_stats: {'total': 19, 'pending': 5, 'approved': 14, 'rejected': 0}
+[2026-02-18 13:26:56] [INFO] db_stats: Fetching database statistics
+[2026-02-18 13:26:56] [INFO] get_signups: Fetching all signups
+[2026-02-18 13:26:56] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 13:26:56] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 13:26:58] [INFO] get_db_stats: {'total': 19, 'pending': 5, 'approved': 14, 'rejected': 0}
+[2026-02-18 13:26:58] [INFO] list_org_signups: Found 19 signups
+[2026-02-18 13:26:58] [INFO] get_signups: Fetching all signups
+[2026-02-18 13:26:58] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 13:26:59] [INFO] list_org_signups: Found 19 signups
+[2026-02-18 13:27:03] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771401389464, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 13:27:04] [INFO] approve_signup_service: Approving signup 1771401389464
+[2026-02-18 13:27:04] [INFO] get_signup_by_id: Fetching signup 1771401389464
+[2026-02-18 13:27:06] [INFO] get_signup_by_id: Found signup 1771401389464
+[2026-02-18 13:27:06] [INFO] approve_signup_service: signup loaded email=geo6ze_hc@pdf-cutter.com, org_name=kk, clerk_org_id=None, clerk_user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:27:06] [INFO] approve_signup_service: Using existing admin user user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:27:06] [INFO] approve_signup_service: Creating new org with created_by=user_39pmT8SxdRTJZt32Qh2FbD6ADke for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:27:06] [INFO] create_clerk_org: Creating org 'kk' for admin user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:27:06] [INFO] create_clerk_org: Error details - OrganizationsSDK.create() got an unexpected keyword argument 'name'
+[2026-02-18 13:27:06] [INFO] create_clerk_org: Trying alternative API call without problematic parameters
+[2026-02-18 13:27:06] [INFO] create_clerk_org: Alternative API call also failed - OrganizationsSDK.create() got an unexpected keyword argument 'name'
+[2026-02-18 13:27:06] [INFO] approve_signup_service: Error approving signup 1771401389464 - Failed to create Clerk organization: OrganizationsSDK.create() got an unexpected keyword argument 'name'
+[2026-02-18 13:27:06] [INFO] approve_signup_endpoint: Result={'error': "Failed to create Clerk organization: OrganizationsSDK.create() got an unexpected keyword argument 'name'"}, Status=500
+[2026-02-18 13:30:25] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:30:27] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:30:27] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:30:28] [INFO] Client connected via Socket.IO
+[2026-02-18 13:30:28] [INFO] Client connected via Socket.IO
+[2026-02-18 13:30:56] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771401389464, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 13:30:57] [INFO] approve_signup_service: Approving signup 1771401389464
+[2026-02-18 13:30:57] [INFO] get_signup_by_id: Fetching signup 1771401389464
+[2026-02-18 13:30:59] [INFO] get_signup_by_id: Found signup 1771401389464
+[2026-02-18 13:30:59] [INFO] approve_signup_service: signup loaded email=geo6ze_hc@pdf-cutter.com, org_name=kk, clerk_org_id=None, clerk_user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:30:59] [INFO] approve_signup_service: Using existing admin user user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:31:00] [INFO] approve_signup_service: Creating new org with created_by=user_39pmT8SxdRTJZt32Qh2FbD6ADke for email=geo6ze_hc@pdf-cutter.com
+[2026-02-18 13:31:00] [INFO] create_clerk_org: Creating org 'kk' for admin user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:31:01] [INFO] create_clerk_org: ✓ Organization created - id=org_39pn15ANbP3OBruTt5gS0EtNEUd, slug=kk, name=kk
+[2026-02-18 13:31:01] [INFO] approve_signup_service: Created new org org_39pn15ANbP3OBruTt5gS0EtNEUd for signup 1771401389464
+[2026-02-18 13:31:01] [INFO] add_organization_member: User user_39pmT8SxdRTJZt32Qh2FbD6ADke is already a member of org org_39pn15ANbP3OBruTt5gS0EtNEUd (idempotent success)
+[2026-02-18 13:31:02] [INFO] approve_signup_service: Success {'status': 'approved', 'signup_id': 1771401389464, 'clerk_org_id': 'org_39pn15ANbP3OBruTt5gS0EtNEUd', 'org_name': 'kk', 'admin_email': 'geo6ze_hc@pdf-cutter.com', 'admin_user_id': 'user_39pmT8SxdRTJZt32Qh2FbD6ADke', 'number_of_seats': 2}
+[2026-02-18 13:31:02] [INFO] approve_signup_endpoint: Result={'status': 'approved', 'signup_id': 1771401389464, 'clerk_org_id': 'org_39pn15ANbP3OBruTt5gS0EtNEUd', 'org_name': 'kk', 'admin_email': 'geo6ze_hc@pdf-cutter.com', 'admin_user_id': 'user_39pmT8SxdRTJZt32Qh2FbD6ADke', 'number_of_seats': 2}, Status=200
+[2026-02-18 13:31:20] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771400022689, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 13:31:21] [INFO] approve_signup_service: Approving signup 1771400022689
+[2026-02-18 13:31:21] [INFO] get_signup_by_id: Fetching signup 1771400022689
+[2026-02-18 13:31:23] [INFO] get_signup_by_id: Found signup 1771400022689
+[2026-02-18 13:31:23] [INFO] approve_signup_service: signup loaded email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com, org_name=aaa, clerk_org_id=None, clerk_user_id=None
+[2026-02-18 13:31:23] [INFO] get_or_create_clerk_user: Found existing user user_39pjlushmn0pdUJWP0otlI6AvDY for a.k.a.g.g.skz.s.jd.vc.r@gmail.com
+[2026-02-18 13:31:23] [INFO] approve_signup_service: Creating new org with created_by=user_39pjlushmn0pdUJWP0otlI6AvDY for email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com
+[2026-02-18 13:31:23] [INFO] create_clerk_org: Creating org 'aaa' for admin user_39pjlushmn0pdUJWP0otlI6AvDY
+[2026-02-18 13:31:24] [INFO] create_clerk_org: ✓ Organization created - id=org_39pn44p2MtRSDUFJQUexwnrcPQu, slug=aaa, name=aaa
+[2026-02-18 13:31:24] [INFO] approve_signup_service: Created new org org_39pn44p2MtRSDUFJQUexwnrcPQu for signup 1771400022689
+[2026-02-18 13:31:24] [INFO] add_organization_member: Error adding user user_39pjlushmn0pdUJWP0otlI6AvDY to org org_39pn44p2MtRSDUFJQUexwnrcPQu - {"errors":[{"message":"organization membership quota exceeded","long_message":"You have reached your limit of 1 organization memberships, including outstanding invitations.","code":"organization_membership_quota_exceeded"}],"clerk_trace_id":"b87d4e88326cbdc0cbf2ab8b26b87b47"}
+[2026-02-18 13:31:24] [INFO] approve_signup_service: Error approving signup 1771400022689 - {"errors":[{"message":"organization membership quota exceeded","long_message":"You have reached your limit of 1 organization memberships, including outstanding invitations.","code":"organization_membership_quota_exceeded"}],"clerk_trace_id":"b87d4e88326cbdc0cbf2ab8b26b87b47"}
+[2026-02-18 13:31:24] [INFO] approve_signup_endpoint: Result={'error': '{"errors":[{"message":"organization membership quota exceeded","long_message":"You have reached your limit of 1 organization memberships, including outstanding invitations.","code":"organization_membership_quota_exceeded"}],"clerk_trace_id":"b87d4e88326cbdc0cbf2ab8b26b87b47"}'}, Status=500
+[2026-02-18 13:33:21] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771332562781, 'admin_user_id': 'user_39nVy67z7rtJoFIhxMEr0psDTJI'}
+[2026-02-18 13:33:23] [INFO] approve_signup_service: Approving signup 1771332562781
+[2026-02-18 13:33:23] [INFO] get_signup_by_id: Fetching signup 1771332562781
+[2026-02-18 13:33:24] [INFO] get_signup_by_id: Found signup 1771332562781
+[2026-02-18 13:33:24] [INFO] approve_signup_service: signup loaded email=koppanasrikanth@gmail.com, org_name=bob, clerk_org_id=None, clerk_user_id=None
+[2026-02-18 13:33:25] [INFO] get_or_create_clerk_user: Found existing user user_39phXabG3Yfxn155rvmEHqZM9Br for koppanasrikanth@gmail.com
+[2026-02-18 13:33:25] [INFO] approve_signup_service: Creating new org with created_by=user_39phXabG3Yfxn155rvmEHqZM9Br for email=koppanasrikanth@gmail.com
+[2026-02-18 13:33:25] [INFO] create_clerk_org: Creating org 'bob' for admin user_39phXabG3Yfxn155rvmEHqZM9Br
+[2026-02-18 13:33:26] [INFO] create_clerk_org: ✓ Organization created - id=org_39pnJOtWfSIkiutMqlOLquPEYB2, slug=bob, name=bob
+[2026-02-18 13:33:26] [INFO] approve_signup_service: Created new org org_39pnJOtWfSIkiutMqlOLquPEYB2 for signup 1771332562781
+[2026-02-18 13:33:26] [INFO] add_organization_member: User user_39phXabG3Yfxn155rvmEHqZM9Br is already a member of org org_39pnJOtWfSIkiutMqlOLquPEYB2 (idempotent success)
+[2026-02-18 13:33:27] [INFO] approve_signup_service: Success {'status': 'approved', 'signup_id': 1771332562781, 'clerk_org_id': 'org_39pnJOtWfSIkiutMqlOLquPEYB2', 'org_name': 'bob', 'admin_email': 'koppanasrikanth@gmail.com', 'admin_user_id': 'user_39phXabG3Yfxn155rvmEHqZM9Br', 'number_of_seats': 6}
+[2026-02-18 13:33:27] [INFO] approve_signup_endpoint: Result={'status': 'approved', 'signup_id': 1771332562781, 'clerk_org_id': 'org_39pnJOtWfSIkiutMqlOLquPEYB2', 'org_name': 'bob', 'admin_email': 'koppanasrikanth@gmail.com', 'admin_user_id': 'user_39phXabG3Yfxn155rvmEHqZM9Br', 'number_of_seats': 6}, Status=200
+[2026-02-18 13:35:19] [INFO] check_user: Endpoint called
+[2026-02-18 13:35:19] [INFO] check_user: Token extracted, length=888
+[2026-02-18 13:35:19] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:35:19] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:35:19] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-18 13:35:19] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-18 13:35:19] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-18 13:35:19] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:35:19] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:35:19] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:35:19] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:35:19] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:35:19] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:20] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:20] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:35:20] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:20] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:20] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:35:20] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:35:20] [INFO] check_user: Token verified successfully, user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:20] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-18 13:35:22] [INFO] get_organization_users: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:35:22] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:35:22] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:35:22] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:22] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:22] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:35:22] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:23] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:23] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:35:23] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:35:23] [INFO] get_users_by_org: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:25] [INFO] get_users_by_org: Found 0 users
+[2026-02-18 13:35:25] [INFO] get_organization_users: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:35:25] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:35:25] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:35:25] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:25] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:35:25] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:35:25] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:26] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:26] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:35:26] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:35:26] [INFO] get_users_by_org: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:35:28] [INFO] get_users_by_org: Found 0 users
+[2026-02-18 13:36:51] [INFO] create_clerk_user: Received body={'token': 'eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zOW5Id3ZoT3dqNjV1YXNiMEFMQUtnMTZlYlYiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJleHAiOjE3NzE0MDIwMjgsImZ2YSI6WzEsMF0sImlhdCI6MTc3MTQwMTk2OCwiaXNzIjoiaHR0cHM6Ly9oYW5keS1saW9uLTIyLmNsZXJrLmFjY291bnRzLmRldiIsIm5iZiI6MTc3MTQwMTk1OCwibyI6eyJpZCI6Im9yZ18zOXBuMTVBTmJQM09CcnVUdDVnUzBFdE5FVWQiLCJyb2wiOiJhZG1pbiIsInNsZyI6ImtrIn0sInNpZCI6InNlc3NfMzlwblhHMEdzQUpzQU1xdTd5MUlnV0FXQ09ZIiwic3RzIjoiYWN0aXZlIiwic3ViIjoidXNlcl8zOXBtVDhTeGRSVEpadDMyUWgyRmJENkFEa2UiLCJ2IjoyfQ.lYuqX62m1vy2yKndwUjetyeAgcuptOcF-nsFT26aZY7e1AT--aFnakiMVeqITm6NrfaX0olOdjbz-oKnyrnnaAHqf5ZXHsZUfCibhHjA0GpDkJm_HyMjepV0lQh3u5FQgLJyAjiSCuEpBNCnsyd0Mhr37x6-Xglo1S8_RGLvEV9P_xvpAvBG4b0sUAFyhVrgS7a7QGGeA2_1xSDGBTCgRnKJWhLtRYX6g7kkDzwcnD2gnh1vc_3dJL9iatwRvpkfrtAfcoV_SwhuPPyhKZRSlqzj0XSafHRxmVzX236OQMuHIjWyazjBPTSBT6XbhNPj1-WpCqOVX6dXs3piu81DCQ', 'email': 'hiii@gmail.com', 'firstName': 'Name', 'lastName': '', 'role': 'admin', 'level': 4}
+[2026-02-18 13:36:51] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:36:51] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:36:51] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:36:51] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:36:51] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:36:51] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:36:51] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:36:51] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:36:51] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:36:52] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:36:52] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:36:52] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:36:53] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:36:53] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:36:53] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:36:53] [INFO] create_clerk_user: Token verified for user user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:36:54] [INFO] get_or_create_clerk_user: Created new user user_39pnjR1XlA6Cymf6o49CiGtsGPN for hiii@gmail.com with level 4 (password set: False)
+[2026-02-18 13:36:54] [INFO] add_organization_member: Added user user_39pnjR1XlA6Cymf6o49CiGtsGPN to org org_39pn15ANbP3OBruTt5gS0EtNEUd with role org:admin
+[2026-02-18 13:36:54] [INFO] create_local_user: Saving user hiii@gmail.com
+[2026-02-18 13:36:56] [INFO] create_local_user: User created successfully - id=10
+[2026-02-18 13:39:42] [INFO] check_user: Endpoint called
+[2026-02-18 13:39:42] [INFO] check_user: Token extracted, length=888
+[2026-02-18 13:39:42] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:39:42] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:39:42] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:39:42] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:39:42] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:39:42] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:39:42] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:39:42] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:39:42] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:43] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:43] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:39:43] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:44] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:39:44] [INFO] check_user: Token verified successfully, user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:44] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-18 13:39:44] [INFO] get_organization_users: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:39:44] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:39:44] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:39:44] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:39:44] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:45] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:45] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:39:45] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:45] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:45] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:39:45] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:39:45] [INFO] get_users_by_org: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:47] [INFO] get_users_by_org: Found 1 users
+[2026-02-18 13:39:47] [INFO] get_organization_users: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:47] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:39:47] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:39:47] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:39:47] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:39:47] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:39:47] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:39:47] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke, org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd, org_role=admin
+[2026-02-18 13:39:47] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:39:47] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:48] [INFO] get_clerk_user_data: Successfully fetched data for user_39pmT8SxdRTJZt32Qh2FbD6ADke
+[2026-02-18 13:39:48] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-18 13:39:48] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:48] [INFO] get_clerk_organization_data: Successfully fetched data for org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:48] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-18 13:39:48] [INFO] verify_and_decode_clerk_token: Complete - user=geo6ze_hc@pdf-cutter.com, role=org:admin
+[2026-02-18 13:39:48] [INFO] get_users_by_org: Fetching users for org org_39pn15ANbP3OBruTt5gS0EtNEUd
+[2026-02-18 13:39:50] [INFO] get_users_by_org: Found 1 users
+[2026-02-18 13:39:58] [INFO] check_user: Endpoint called
+[2026-02-18 13:39:58] [INFO] check_user: Token extracted, length=797
+[2026-02-18 13:39:58] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 13:39:58] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 13:39:58] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-18 13:39:58] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 13:39:58] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 13:39:58] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 13:39:58] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI, org_id=None, org_role=None
+[2026-02-18 13:39:58] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 13:39:58] [INFO] get_clerk_user_data: Fetching data for user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:39:59] [INFO] get_clerk_user_data: Successfully fetched data for user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:39:59] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-18 13:39:59] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-18 13:39:59] [INFO] check_user: Token verified successfully, user_id=user_39nVy67z7rtJoFIhxMEr0psDTJI
+[2026-02-18 13:39:59] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-18 13:39:59] [INFO] db_stats: Fetching database statistics
+[2026-02-18 13:39:59] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 13:40:00] [INFO] get_db_stats: {'total': 19, 'pending': 3, 'approved': 16, 'rejected': 0}
+[2026-02-18 13:40:01] [INFO] db_stats: Fetching database statistics
+[2026-02-18 13:40:01] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 13:40:01] [INFO] get_signups: Fetching all signups
+[2026-02-18 13:40:01] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 13:40:02] [INFO] list_org_signups: Found 19 signups
+[2026-02-18 13:40:02] [INFO] get_db_stats: {'total': 19, 'pending': 3, 'approved': 16, 'rejected': 0}
+[2026-02-18 13:40:02] [INFO] get_signups: Fetching all signups
+[2026-02-18 13:40:02] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 13:40:04] [INFO] list_org_signups: Found 19 signups
+[2026-02-18 13:49:45] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:49:47] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:49:47] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:49:48] [INFO] Client connected via Socket.IO
+[2026-02-18 13:49:48] [INFO] Client connected via Socket.IO
+[2026-02-18 13:50:04] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:50:06] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:50:06] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:50:07] [INFO] Client connected via Socket.IO
+[2026-02-18 13:50:07] [INFO] Client connected via Socket.IO
+[2026-02-18 13:50:09] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:50:11] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:50:11] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:50:12] [INFO] Client connected via Socket.IO
+[2026-02-18 13:50:12] [INFO] Client connected via Socket.IO
+[2026-02-18 13:54:56] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:54:59] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:54:59] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:55:00] [INFO] Startup: Ensuring database schema...
+[2026-02-18 13:55:02] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 13:55:02] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 13:55:02] [INFO] Client connected via Socket.IO
+[2026-02-18 13:55:02] [INFO] Client connected via Socket.IO
+[2026-02-18 14:51:37] [INFO] Startup: Ensuring database schema...
+[2026-02-18 14:51:39] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 14:51:39] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 14:51:40] [INFO] Startup: Ensuring database schema...
+[2026-02-18 14:51:42] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 14:51:42] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 14:51:43] [INFO] Client connected via Socket.IO
+[2026-02-18 14:51:43] [INFO] Client connected via Socket.IO
+[2026-02-18 14:54:29] [INFO] register_org: Endpoint called
+[2026-02-18 14:54:29] [INFO] register_org: Validation passed for email=sw1le27@mediaholy.com
+[2026-02-18 14:54:30] [INFO] check_email_exists: Email sw1le27@mediaholy.com not found
+[2026-02-18 14:54:30] [INFO] register_org: Delayed Clerk user creation - clerk_user_id set to None
+[2026-02-18 14:54:32] [INFO] create_signup: Creating signup for email=sw1le27@mediaholy.com
+[2026-02-18 14:54:33] [INFO] create_signup: Signup created successfully - id=1771406670898
+[2026-02-18 14:54:33] [INFO] register_org: Signup created - id=1771406670898
+[2026-02-18 14:56:00] [INFO] check_user: Endpoint called
+[2026-02-18 14:56:00] [INFO] check_user: Token extracted, length=796
+[2026-02-18 14:56:00] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-18 14:56:00] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-18 14:56:00] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-18 14:56:00] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-18 14:56:00] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-18 14:56:00] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-18 14:56:00] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-18 14:56:00] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-18 14:56:00] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pxH5AZHrquHY104cFXusRPSyF, org_id=None, org_role=None
+[2026-02-18 14:56:00] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-18 14:56:00] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-18 14:56:01] [INFO] get_clerk_user_data: Successfully fetched data for user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-18 14:56:01] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-18 14:56:01] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-18 14:56:01] [INFO] check_user: Token verified successfully, user_id=user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-18 14:56:01] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-18 14:56:03] [INFO] db_stats: Fetching database statistics
+[2026-02-18 14:56:03] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 14:56:04] [INFO] get_db_stats: {'total': 20, 'pending': 4, 'approved': 16, 'rejected': 0}
+[2026-02-18 14:56:05] [INFO] db_stats: Fetching database statistics
+[2026-02-18 14:56:05] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 14:56:05] [INFO] get_signups: Fetching all signups
+[2026-02-18 14:56:05] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 14:56:06] [INFO] list_org_signups: Found 20 signups
+[2026-02-18 14:56:07] [INFO] get_db_stats: {'total': 20, 'pending': 4, 'approved': 16, 'rejected': 0}
+[2026-02-18 14:56:07] [INFO] get_signups: Fetching all signups
+[2026-02-18 14:56:07] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 14:56:08] [INFO] list_org_signups: Found 20 signups
+[2026-02-18 14:56:10] [INFO] db_stats: Fetching database statistics
+[2026-02-18 14:56:10] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 14:56:11] [INFO] get_db_stats: {'total': 20, 'pending': 4, 'approved': 16, 'rejected': 0}
+[2026-02-18 14:56:11] [INFO] db_stats: Fetching database statistics
+[2026-02-18 14:56:11] [INFO] get_db_stats: Fetching database statistics
+[2026-02-18 14:56:12] [INFO] get_signups: Fetching all signups
+[2026-02-18 14:56:12] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 14:56:13] [INFO] get_db_stats: {'total': 20, 'pending': 4, 'approved': 16, 'rejected': 0}
+[2026-02-18 14:56:13] [INFO] list_org_signups: Found 20 signups
+[2026-02-18 14:56:13] [INFO] get_signups: Fetching all signups
+[2026-02-18 14:56:13] [INFO] list_org_signups: Fetching all signups
+[2026-02-18 14:56:15] [INFO] list_org_signups: Found 20 signups
+[2026-02-18 14:56:42] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771406670898, 'admin_user_id': 'user_39pxH5AZHrquHY104cFXusRPSyF'}
+[2026-02-18 14:56:43] [INFO] approve_signup_service: Approving signup 1771406670898
+[2026-02-18 14:56:43] [INFO] get_signup_by_id: Fetching signup 1771406670898
+[2026-02-18 14:56:45] [INFO] get_signup_by_id: Found signup 1771406670898
+[2026-02-18 14:56:45] [INFO] approve_signup_service: signup loaded email=sw1le27@mediaholy.com, org_name=sss, clerk_org_id=None, clerk_user_id=None
+[2026-02-18 14:56:47] [INFO] get_or_create_clerk_user: Error creating user sw1le27@mediaholy.com: {"errors":[{"message":"is missing","long_message":"`password_digest` is required when `password_hasher` is present.","code":"form_conditional_param_missing","meta":{"param_name":"password_digest"}}],"clerk_trace_id":"028b37c10cf082b96efc7ef93f338945"}
+[2026-02-18 14:56:47] [INFO] approve_signup_service: Error approving signup 1771406670898 - {"errors":[{"message":"is missing","long_message":"`password_digest` is required when `password_hasher` is present.","code":"form_conditional_param_missing","meta":{"param_name":"password_digest"}}],"clerk_trace_id":"028b37c10cf082b96efc7ef93f338945"}
+[2026-02-18 14:56:47] [INFO] approve_signup_endpoint: Result={'error': '{"errors":[{"message":"is missing","long_message":"`password_digest` is required when `password_hasher` is present.","code":"form_conditional_param_missing","meta":{"param_name":"password_digest"}}],"clerk_trace_id":"028b37c10cf082b96efc7ef93f338945"}'}, Status=500
+[2026-02-18 14:58:28] [INFO] Startup: Ensuring database schema...
+[2026-02-18 14:58:30] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-18 14:58:30] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-18 14:58:30] [INFO] Client connected via Socket.IO
+[2026-02-18 14:58:30] [INFO] Client connected via Socket.IO
+[2026-02-18 14:58:59] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771406670898, 'admin_user_id': 'user_39pxH5AZHrquHY104cFXusRPSyF'}
+[2026-02-18 14:59:00] [INFO] approve_signup_service: Approving signup 1771406670898
+[2026-02-18 14:59:00] [INFO] get_signup_by_id: Fetching signup 1771406670898
+[2026-02-18 14:59:02] [INFO] get_signup_by_id: Found signup 1771406670898
+[2026-02-18 14:59:02] [INFO] approve_signup_service: signup loaded email=sw1le27@mediaholy.com, org_name=sss, clerk_org_id=None, clerk_user_id=None
+[2026-02-18 14:59:04] [INFO] get_or_create_clerk_user: Created new user user_39pxiyMrxO3zWWG2u9mgFlZexaC for sw1le27@mediaholy.com with level None and teams None (password set: True)
+[2026-02-18 14:59:04] [INFO] approve_signup_service: Creating new org with created_by=user_39pxiyMrxO3zWWG2u9mgFlZexaC for email=sw1le27@mediaholy.com
+[2026-02-18 14:59:04] [INFO] create_clerk_org: Creating org 'sss' for admin user_39pxiyMrxO3zWWG2u9mgFlZexaC
+[2026-02-18 14:59:04] [INFO] create_clerk_org: ✓ Organization created - id=org_39pxj4rYkhpHdg0ASTN8TsP4CJw, slug=sss, name=sss
+[2026-02-18 14:59:04] [INFO] approve_signup_service: Created new org org_39pxj4rYkhpHdg0ASTN8TsP4CJw for signup 1771406670898
+[2026-02-18 14:59:04] [INFO] add_organization_member: User user_39pxiyMrxO3zWWG2u9mgFlZexaC is already a member of org org_39pxj4rYkhpHdg0ASTN8TsP4CJw (idempotent success)
+[2026-02-18 14:59:05] [INFO] approve_signup_service: Success {'status': 'approved', 'signup_id': 1771406670898, 'clerk_org_id': 'org_39pxj4rYkhpHdg0ASTN8TsP4CJw', 'org_name': 'sss', 'admin_email': 'sw1le27@mediaholy.com', 'admin_user_id': 'user_39pxiyMrxO3zWWG2u9mgFlZexaC', 'number_of_seats': 2}
+[2026-02-18 14:59:05] [INFO] approve_signup_endpoint: Result={'status': 'approved', 'signup_id': 1771406670898, 'clerk_org_id': 'org_39pxj4rYkhpHdg0ASTN8TsP4CJw', 'org_name': 'sss', 'admin_email': 'sw1le27@mediaholy.com', 'admin_user_id': 'user_39pxiyMrxO3zWWG2u9mgFlZexaC', 'number_of_seats': 2}, Status=200
+[2026-02-18 14:59:22] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771400022689, 'admin_user_id': 'user_39pxH5AZHrquHY104cFXusRPSyF'}
+[2026-02-18 14:59:23] [INFO] approve_signup_service: Approving signup 1771400022689
+[2026-02-18 14:59:23] [INFO] get_signup_by_id: Fetching signup 1771400022689
+[2026-02-18 14:59:25] [INFO] get_signup_by_id: Found signup 1771400022689
+[2026-02-18 14:59:25] [INFO] approve_signup_service: signup loaded email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com, org_name=aaa, clerk_org_id=None, clerk_user_id=None
+[2026-02-18 14:59:26] [INFO] get_or_create_clerk_user: Created new user user_39pxlltqhvQuFpwY48zDyrcF5ap for a.k.a.g.g.skz.s.jd.vc.r@gmail.com with level None and teams None (password set: True)
+[2026-02-18 14:59:26] [INFO] approve_signup_service: Creating new org with created_by=user_39pxlltqhvQuFpwY48zDyrcF5ap for email=a.k.a.g.g.skz.s.jd.vc.r@gmail.com
+[2026-02-18 14:59:26] [INFO] create_clerk_org: Creating org 'aaa' for admin user_39pxlltqhvQuFpwY48zDyrcF5ap
+[2026-02-18 14:59:26] [INFO] create_clerk_org: ✓ Organization created - id=org_39pxlo661xcx8Dnciyl458nDaRS, slug=aaa, name=aaa
+[2026-02-18 14:59:26] [INFO] approve_signup_service: Created new org org_39pxlo661xcx8Dnciyl458nDaRS for signup 1771400022689
+[2026-02-18 14:59:27] [INFO] add_organization_member: Error adding user user_39pxlltqhvQuFpwY48zDyrcF5ap to org org_39pxlo661xcx8Dnciyl458nDaRS - {"errors":[{"message":"organization membership quota exceeded","long_message":"You have reached your limit of 1 organization memberships, including outstanding invitations.","code":"organization_membership_quota_exceeded"}],"clerk_trace_id":"1a36f5a0b0f0891b1bd4001210e5434f"}
+[2026-02-18 14:59:27] [INFO] approve_signup_service: Error approving signup 1771400022689 - {"errors":[{"message":"organization membership quota exceeded","long_message":"You have reached your limit of 1 organization memberships, including outstanding invitations.","code":"organization_membership_quota_exceeded"}],"clerk_trace_id":"1a36f5a0b0f0891b1bd4001210e5434f"}
+[2026-02-18 14:59:27] [INFO] approve_signup_endpoint: Result={'error': '{"errors":[{"message":"organization membership quota exceeded","long_message":"You have reached your limit of 1 organization memberships, including outstanding invitations.","code":"organization_membership_quota_exceeded"}],"clerk_trace_id":"1a36f5a0b0f0891b1bd4001210e5434f"}'}, Status=500

@@ -1,0 +1,81 @@
+[2026-02-24 11:09:12] [INFO] Startup: Ensuring database schema...
+[2026-02-24 11:09:14] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-24 11:09:14] [INFO] Startup: Ensuring matters tables...
+[2026-02-24 11:09:17] [INFO] create_matters_table: matters table schema ensured
+[2026-02-24 11:09:17] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-24 11:09:18] [INFO] Startup: Ensuring database schema...
+[2026-02-24 11:09:20] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-24 11:09:20] [INFO] Startup: Ensuring matters tables...
+[2026-02-24 11:09:24] [INFO] create_matters_table: matters table schema ensured
+[2026-02-24 11:09:24] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-24 11:10:15] [INFO] check_user: Endpoint called
+[2026-02-24 11:10:15] [INFO] check_user: Token extracted, length=905
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-24 11:10:15] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-24 11:10:15] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-24 11:10:15] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-24 11:10:15] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3A6ObYY9gNdFbwnt7zeSkXZEN4I, org_id=org_3A6O4YcpYwyicaOk7JbCuRAp7Di, org_role=member
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-24 11:10:15] [INFO] get_clerk_user_data: Fetching data for user_id=user_3A6ObYY9gNdFbwnt7zeSkXZEN4I
+[2026-02-24 11:10:15] [INFO] get_clerk_user_data: Successfully fetched data for user_3A6ObYY9gNdFbwnt7zeSkXZEN4I
+[2026-02-24 11:10:15] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-24 11:10:15] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3A6O4YcpYwyicaOk7JbCuRAp7Di
+[2026-02-24 11:10:16] [INFO] get_clerk_organization_data: Successfully fetched data for org_3A6O4YcpYwyicaOk7JbCuRAp7Di
+[2026-02-24 11:10:16] [INFO] verify_and_decode_clerk_token: Regular user - role=org:member
+[2026-02-24 11:10:16] [INFO] verify_and_decode_clerk_token: Complete - user=nagv8900@gmail.com, role=org:member
+[2026-02-24 11:10:16] [INFO] check_user: Token verified successfully, user_id=user_3A6ObYY9gNdFbwnt7zeSkXZEN4I
+[2026-02-24 11:10:16] [INFO] check_user: Response prepared - role=org:member
+[2026-02-24 11:11:43] [INFO] register_org: Endpoint called
+[2026-02-24 11:11:43] [INFO] register_org: Validation passed for email=nageswararaovutla091@gmail.com
+[2026-02-24 11:11:44] [INFO] check_email_exists: Email nageswararaovutla091@gmail.com not found
+[2026-02-24 11:11:44] [INFO] register_org: Delayed Clerk user creation - clerk_user_id set to None
+[2026-02-24 11:11:46] [INFO] create_signup: Creating signup for email=nageswararaovutla091@gmail.com
+[2026-02-24 11:11:47] [INFO] create_signup: Signup created successfully - id=1771911704915
+[2026-02-24 11:11:47] [INFO] register_org: Signup created - id=1771911704915
+[2026-02-24 11:13:03] [INFO] check_user: Endpoint called
+[2026-02-24 11:13:03] [INFO] check_user: Token extracted, length=797
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-24 11:13:03] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-24 11:13:03] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3A4UBJslzxFdZsRW36BLPQPE6JG, org_id=None, org_role=None
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-24 11:13:03] [INFO] get_clerk_user_data: Fetching data for user_id=user_3A4UBJslzxFdZsRW36BLPQPE6JG
+[2026-02-24 11:13:03] [INFO] get_clerk_user_data: Successfully fetched data for user_3A4UBJslzxFdZsRW36BLPQPE6JG
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-24 11:13:03] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-24 11:13:03] [INFO] check_user: Token verified successfully, user_id=user_3A4UBJslzxFdZsRW36BLPQPE6JG
+[2026-02-24 11:13:03] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-24 11:13:05] [INFO] db_stats: Fetching database statistics
+[2026-02-24 11:13:05] [INFO] get_db_stats: Fetching database statistics
+[2026-02-24 11:13:07] [INFO] get_db_stats: {'total': 8, 'pending': 4, 'approved': 3, 'rejected': 1}
+[2026-02-24 11:13:07] [INFO] db_stats: Fetching database statistics
+[2026-02-24 11:13:07] [INFO] get_db_stats: Fetching database statistics
+[2026-02-24 11:13:09] [INFO] get_db_stats: {'total': 8, 'pending': 4, 'approved': 3, 'rejected': 1}
+[2026-02-24 11:13:09] [INFO] get_signups: Fetching all signups
+[2026-02-24 11:13:09] [INFO] list_org_signups: Fetching all signups
+[2026-02-24 11:13:10] [INFO] list_org_signups: Found 8 signups
+[2026-02-24 11:13:10] [INFO] get_signups: Fetching all signups
+[2026-02-24 11:13:10] [INFO] list_org_signups: Fetching all signups
+[2026-02-24 11:13:12] [INFO] list_org_signups: Found 8 signups
+[2026-02-24 11:13:23] [INFO] approve_signup_endpoint: Received body={'signup_id': 1771911704915, 'admin_user_id': 'user_3A4UBJslzxFdZsRW36BLPQPE6JG'}
+[2026-02-24 11:13:24] [INFO] approve_signup_service: Approving signup 1771911704915
+[2026-02-24 11:13:24] [INFO] get_signup_by_id: Fetching signup 1771911704915
+[2026-02-24 11:13:26] [INFO] get_signup_by_id: Found signup 1771911704915
+[2026-02-24 11:13:26] [INFO] approve_signup_service: signup loaded email=nageswararaovutla091@gmail.com, org_name=kumar, clerk_org_id=None, clerk_user_id=None
+[2026-02-24 11:13:27] [INFO] get_or_create_clerk_user: Created new user user_3A6T1h9l4Bxv4Hfuy2xVav9DUlI for nageswararaovutla091@gmail.com with level None and teams None (password set: True)
+[2026-02-24 11:13:27] [INFO] approve_signup_service: Creating new org with created_by=user_3A6T1h9l4Bxv4Hfuy2xVav9DUlI for email=nageswararaovutla091@gmail.com
+[2026-02-24 11:13:27] [INFO] create_clerk_org: Creating org 'kumar' for admin user_3A6T1h9l4Bxv4Hfuy2xVav9DUlI
+[2026-02-24 11:13:28] [INFO] create_clerk_org: ✓ Organization created - id=org_3A6T1dNcKYETMsuTjAwdqR7BoLg, slug=kumar, name=kumar
+[2026-02-24 11:13:28] [INFO] approve_signup_service: Created new org org_3A6T1dNcKYETMsuTjAwdqR7BoLg for signup 1771911704915
+[2026-02-24 11:13:28] [INFO] add_organization_member: User user_3A6T1h9l4Bxv4Hfuy2xVav9DUlI is already a member of org org_3A6T1dNcKYETMsuTjAwdqR7BoLg (idempotent success)
+[2026-02-24 11:13:28] [INFO] create_local_user: Saving user nageswararaovutla091@gmail.com with teams=['org:admin']
+[2026-02-24 11:13:31] [INFO] create_local_user: User created successfully - id=38, teams=['org:admin']
+[2026-02-24 11:13:31] [INFO] approve_signup_service: Success {'status': 'approved', 'signup_id': 1771911704915, 'clerk_org_id': 'org_3A6T1dNcKYETMsuTjAwdqR7BoLg', 'org_name': 'kumar', 'admin_email': 'nageswararaovutla091@gmail.com', 'admin_user_id': 'user_3A6T1h9l4Bxv4Hfuy2xVav9DUlI', 'number_of_seats': 10}
+[2026-02-24 11:13:31] [INFO] approve_signup_endpoint: Result={'status': 'approved', 'signup_id': 1771911704915, 'clerk_org_id': 'org_3A6T1dNcKYETMsuTjAwdqR7BoLg', 'org_name': 'kumar', 'admin_email': 'nageswararaovutla091@gmail.com', 'admin_user_id': 'user_3A6T1h9l4Bxv4Hfuy2xVav9DUlI', 'number_of_seats': 10}, Status=200

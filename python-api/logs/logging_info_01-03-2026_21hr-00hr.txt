@@ -1,0 +1,500 @@
+[2026-03-01 21:01:21] [INFO] check_user: Endpoint called
+[2026-03-01 21:01:21] [INFO] check_user: Token extracted, length=912
+[2026-03-01 21:01:21] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:01:21] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:01:21] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:01:21] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:01:21] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:01:21] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:01:21] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:01:21] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:01:21] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:22] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:22] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:01:22] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:23] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:01:23] [INFO] check_user: Token verified successfully, user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:23] [INFO] check_user: Response prepared - role=org:admin
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:01:23] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:01:23] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:01:23] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:01:23] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:24] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:24] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:01:24] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:24] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:24] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:01:24] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:01:25] [INFO] get_organization_users: Fetching users for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:25] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:01:25] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:01:25] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:01:25] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:01:25] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:01:25] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:01:25] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:01:25] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:01:25] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:26] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:26] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:01:26] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:26] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:26] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:01:26] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:01:26] [INFO] get_users_by_org: Fetching users for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:27] [INFO] get_users_by_org: Found 3 users with teams
+[2026-03-01 21:01:27] [INFO] get_organization_users: Returning [{'id': 24, 'clerk_user_id': 'user_3ALebB9iWnLllrTg6y2ZWtkJQFn', 'email': 'test244554+clerk_test@example.com', 'first_name': 'asasdev', 'last_name': '', 'role': 'org:member', 'level': None, 'created_at': '2026-03-01T14:45:48.850836', 'teams': []}, {'id': 23, 'clerk_user_id': 'user_3ALdqiz8N60lTqQJVIHkwEWHeeB', 'email': 'saikkkk+clerk_test@example.com', 'first_name': 'Sai', 'last_name': '', 'role': 'org:member', 'level': None, 'created_at': '2026-03-01T14:39:39.868240', 'teams': []}, {'id': 20, 'clerk_user_id': 'user_3ALZ5FI1NAKcfsTtA7K59eL7icJ', 'email': 'nageswararaovutla7@gmail.com', 'first_name': 'sasa', 'last_name': None, 'role': 'org:admin', 'level': 1, 'created_at': '2026-03-01T14:00:27.750218', 'teams': ['org:admin']}] users with teams data
+[2026-03-01 21:01:27] [INFO]   User test244554+clerk_test@example.com: teams=[]
+[2026-03-01 21:01:27] [INFO]   User saikkkk+clerk_test@example.com: teams=[]
+[2026-03-01 21:01:27] [INFO]   User nageswararaovutla7@gmail.com: teams=['org:admin']
+[2026-03-01 21:01:27] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:01:27] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:01:27] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:01:27] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:01:27] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:01:27] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:01:27] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:01:27] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:01:27] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:28] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:28] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:01:28] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:28] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:28] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:01:28] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:01:30] [INFO] get_organization_users: Fetching users for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:01:30] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:01:30] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:01:30] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:30] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:01:30] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:30] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:01:30] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:01:30] [INFO] get_users_by_org: Fetching users for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:01:31] [INFO] get_users_by_org: Found 3 users with teams
+[2026-03-01 21:01:31] [INFO] get_organization_users: Returning [{'id': 24, 'clerk_user_id': 'user_3ALebB9iWnLllrTg6y2ZWtkJQFn', 'email': 'test244554+clerk_test@example.com', 'first_name': 'asasdev', 'last_name': '', 'role': 'org:member', 'level': None, 'created_at': '2026-03-01T14:45:48.850836', 'teams': []}, {'id': 23, 'clerk_user_id': 'user_3ALdqiz8N60lTqQJVIHkwEWHeeB', 'email': 'saikkkk+clerk_test@example.com', 'first_name': 'Sai', 'last_name': '', 'role': 'org:member', 'level': None, 'created_at': '2026-03-01T14:39:39.868240', 'teams': []}, {'id': 20, 'clerk_user_id': 'user_3ALZ5FI1NAKcfsTtA7K59eL7icJ', 'email': 'nageswararaovutla7@gmail.com', 'first_name': 'sasa', 'last_name': None, 'role': 'org:admin', 'level': 1, 'created_at': '2026-03-01T14:00:27.750218', 'teams': ['org:admin']}] users with teams data
+[2026-03-01 21:01:31] [INFO]   User test244554+clerk_test@example.com: teams=[]
+[2026-03-01 21:01:31] [INFO]   User saikkkk+clerk_test@example.com: teams=[]
+[2026-03-01 21:01:31] [INFO]   User nageswararaovutla7@gmail.com: teams=['org:admin']
+[2026-03-01 21:01:31] [INFO] Client connected via Socket.IO
+[2026-03-01 21:01:31] [INFO] [SOCKET] User user_3ALZ5FI1NAKcfsTtA7K59eL7icJ registered (sid=Gb8yKAjEYoKvHBWQAAAP)
+[2026-03-01 21:02:06] [INFO] delete_user: Deleting user user_3ALebB9iWnLllrTg6y2ZWtkJQFn from org
+[2026-03-01 21:02:06] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:02:06] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:02:06] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:02:06] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:02:06] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:02:06] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:02:06] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:02:06] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:02:06] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:02:07] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:02:07] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:02:07] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:07] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:07] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:02:07] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:02:08] [INFO] list_organization_members: Listed members for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:08] [INFO] remove_organization_member: Removed user user_3ALebB9iWnLllrTg6y2ZWtkJQFn from org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:08] [INFO] delete_user: Removed user user_3ALebB9iWnLllrTg6y2ZWtkJQFn from Clerk org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:09] [INFO] delete_clerk_user: Deleted Clerk user user_3ALebB9iWnLllrTg6y2ZWtkJQFn
+[2026-03-01 21:02:09] [INFO] delete_user: Permanently deleted Clerk account for user user_3ALebB9iWnLllrTg6y2ZWtkJQFn
+[2026-03-01 21:02:09] [INFO] delete_local_user: Removing user user_3ALebB9iWnLllrTg6y2ZWtkJQFn from org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:10] [INFO] delete_local_user: Removed user_teams for user user_3ALebB9iWnLllrTg6y2ZWtkJQFn
+[2026-03-01 21:02:10] [INFO] delete_local_user: Successfully removed user user_3ALebB9iWnLllrTg6y2ZWtkJQFn from local DB
+[2026-03-01 21:02:10] [INFO] get_organization_users: Fetching users for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:10] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:02:10] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:02:10] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:02:10] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:02:10] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:02:10] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:02:10] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ, org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r, org_role=admin
+[2026-03-01 21:02:10] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:02:10] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:02:11] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALZ5FI1NAKcfsTtA7K59eL7icJ
+[2026-03-01 21:02:11] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-03-01 21:02:11] [INFO] get_clerk_organization_data: Fetching data for org_id=org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:11] [INFO] get_clerk_organization_data: Successfully fetched data for org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:11] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-03-01 21:02:11] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-03-01 21:02:11] [INFO] get_users_by_org: Fetching users for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:02:12] [INFO] get_users_by_org: Found 2 users with teams
+[2026-03-01 21:02:12] [INFO] get_organization_users: Returning [{'id': 23, 'clerk_user_id': 'user_3ALdqiz8N60lTqQJVIHkwEWHeeB', 'email': 'saikkkk+clerk_test@example.com', 'first_name': 'Sai', 'last_name': '', 'role': 'org:member', 'level': None, 'created_at': '2026-03-01T14:39:39.868240', 'teams': []}, {'id': 20, 'clerk_user_id': 'user_3ALZ5FI1NAKcfsTtA7K59eL7icJ', 'email': 'nageswararaovutla7@gmail.com', 'first_name': 'sasa', 'last_name': None, 'role': 'org:admin', 'level': 1, 'created_at': '2026-03-01T14:00:27.750218', 'teams': ['org:admin']}] users with teams data
+[2026-03-01 21:02:12] [INFO]   User saikkkk+clerk_test@example.com: teams=[]
+[2026-03-01 21:02:12] [INFO]   User nageswararaovutla7@gmail.com: teams=['org:admin']
+[2026-03-01 21:07:26] [INFO] check_user: Endpoint called
+[2026-03-01 21:07:26] [INFO] check_user: Token extracted, length=797
+[2026-03-01 21:07:26] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-03-01 21:07:26] [INFO] get_jwks_client: Checking JWKS cache
+[2026-03-01 21:07:26] [INFO] get_jwks_client: Using cached JWKS client
+[2026-03-01 21:07:26] [INFO] verify_and_decode_clerk_token: Token kid=ins_3ACn1OMVtIWmoEs24cYkXYyrxiQ
+[2026-03-01 21:07:26] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-03-01 21:07:26] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-03-01 21:07:26] [INFO] verify_and_decode_clerk_token: Verified user_id=user_3ALToOhIY3Cxd2DKXWQrlzOjE9R, org_id=None, org_role=None
+[2026-03-01 21:07:26] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-03-01 21:07:26] [INFO] get_clerk_user_data: Fetching data for user_id=user_3ALToOhIY3Cxd2DKXWQrlzOjE9R
+[2026-03-01 21:07:27] [INFO] get_clerk_user_data: Successfully fetched data for user_3ALToOhIY3Cxd2DKXWQrlzOjE9R
+[2026-03-01 21:07:27] [INFO] verify_and_decode_clerk_token: Super admin detected - email=nagv8900@gmail.com
+[2026-03-01 21:07:27] [INFO] verify_and_decode_clerk_token: Complete - user=nagv8900@gmail.com, role=super-admin
+[2026-03-01 21:07:27] [INFO] check_user: Token verified successfully, user_id=user_3ALToOhIY3Cxd2DKXWQrlzOjE9R
+[2026-03-01 21:07:27] [INFO] check_user: Response prepared - role=super-admin
+[2026-03-01 21:07:28] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:30] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:30] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:07:31] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:07:32] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"1df3dfbb04404bfdd174d195f4a199a3"}
+[2026-03-01 21:07:32] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:07:33] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"1ef3e178db469603a297e04916fcf682"}
+[2026-03-01 21:07:33] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:07:33] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"58dc711c0822c9e5a297e04916fcf337"}
+[2026-03-01 21:07:33] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:07:33] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:36] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:36] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:07:37] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:07:37] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"4b83d8b83feff71ba297e04916fcf3c7"}
+[2026-03-01 21:07:37] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:07:38] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c3fef59c1d6a01483a7364f2ea3de47e"}
+[2026-03-01 21:07:38] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:07:39] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8a758ea47ba20817241921d9102c9668"}
+[2026-03-01 21:07:39] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:07:39] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:07:39] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:41] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:41] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:07:42] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:07:43] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"52c23a4e82b4c19f241921d9102c963f"}
+[2026-03-01 21:07:43] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:07:43] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"74f36ac2e7ec6658b5d3fe27ffda144a"}
+[2026-03-01 21:07:43] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:07:44] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"dfa4fc8608f31919b5d3fe27ffda10c3"}
+[2026-03-01 21:07:44] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:07:44] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:07:44] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:46] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:46] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:07:47] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:07:48] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"2dc0d71e4e1881a4bcf2cf40c3362dd3"}
+[2026-03-01 21:07:48] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:07:48] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"de41d4bd3710876ac3f1767db54f7efd"}
+[2026-03-01 21:07:48] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:07:49] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"db92ca65b71746b3c3f1767db54f7986"}
+[2026-03-01 21:07:49] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:07:49] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:50] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:50] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:52] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:55] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:07:55] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:07:57] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:07:57] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:07:58] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:07:58] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"9e90d0c9528edfaf644f3279907bf6bb"}
+[2026-03-01 21:07:58] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:07:59] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c7af263f9ccf569e644f3279907bf98f"}
+[2026-03-01 21:07:59] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:08:00] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"4d1d050dfb9b0ed5644f3279907bf0ba"}
+[2026-03-01 21:08:00] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:08:00] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:08:00] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:08:02] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:08:03] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:08:03] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:08:04] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"65678aa9dc06506e424068f9c33520cd"}
+[2026-03-01 21:08:04] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:08:05] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"659490d936a9ff23424068f9c33528e1"}
+[2026-03-01 21:08:05] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:08:06] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"b4d75ec8afc97546424068f9c33526f9"}
+[2026-03-01 21:08:06] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:08:12] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:08:12] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:08:13] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:08:14] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:08:15] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:08:15] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"a27eb13a86c2d5db82142deb8c644619"}
+[2026-03-01 21:08:15] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:08:16] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"a8bf2c5755990a1582142deb8c644d57"}
+[2026-03-01 21:08:16] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:08:17] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"abe737c793079d6682142deb8c6445c0"}
+[2026-03-01 21:08:17] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:08:17] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:08:17] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:08:20] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:08:21] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:08:21] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:08:22] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8f617970d84a3624795c092cca50e036"}
+[2026-03-01 21:08:22] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:08:23] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c617b4bedff12d7d795c092cca50e4de"}
+[2026-03-01 21:08:23] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:08:24] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"b448ccf865998059795c092cca50e6f6"}
+[2026-03-01 21:08:24] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:08:43] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:08:43] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:08:44] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:08:45] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:08:46] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:08:46] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"9bda429d6324fa23d267a7d4b2680787"}
+[2026-03-01 21:08:46] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:08:48] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"5b49533d3f5b29a8d267a7d4b2680020"}
+[2026-03-01 21:08:48] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:08:48] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"18d173b0daf15b25d267a7d4b2680f49"}
+[2026-03-01 21:08:48] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:08:48] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:08:48] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:08:50] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:08:50] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:08:51] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:08:52] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"2a793e184fd20a013fec0c0e7117d154"}
+[2026-03-01 21:08:52] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:08:53] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"42bef5844e74ad9d3fec0c0e7117d601"}
+[2026-03-01 21:08:53] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:08:53] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"ef486c20b22d0d1a3fec0c0e7117d0f2"}
+[2026-03-01 21:08:53] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:09:17] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:09:17] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:09:17] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:09:18] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:09:19] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:09:19] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"6d915334fbc25c2ed0f9994cac70200a"}
+[2026-03-01 21:09:19] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:09:20] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"cd103bc71564bdd7d0f9994cac70251b"}
+[2026-03-01 21:09:20] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:09:20] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"08fef8803a04627f109b1510dd83cd6c"}
+[2026-03-01 21:09:20] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:09:20] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:09:20] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:09:21] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:09:21] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:09:22] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:09:22] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"2373975170373fe6109b1510dd83ccfa"}
+[2026-03-01 21:09:22] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:09:23] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"72346ba2e4406407109b1510dd83cbe0"}
+[2026-03-01 21:09:23] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:09:23] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"a370bae152e4636e109b1510dd83c04f"}
+[2026-03-01 21:09:23] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:10:43] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:10:43] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:10:45] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:10:46] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:10:47] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:10:47] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"3d8254427934c2ef9917a0aa23e42ee9"}
+[2026-03-01 21:10:47] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:10:48] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"469e20b8db427d5c9917a0aa23e42ff4"}
+[2026-03-01 21:10:48] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:10:48] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"d3c61423c27bf1ea9917a0aa23e426ab"}
+[2026-03-01 21:10:48] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:10:48] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:10:48] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:10:50] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:10:50] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:10:51] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:10:51] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"fba340f386042fa54c314ebecc8a99d8"}
+[2026-03-01 21:10:51] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:10:52] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"9857b45838dddc9d4c314ebecc8a99cf"}
+[2026-03-01 21:10:52] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:10:52] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"3630560f225f52104c314ebecc8a99a5"}
+[2026-03-01 21:10:52] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:10:56] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:10:58] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:10:59] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:11:00] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:11:00] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"3b78897a85293ec9839a325ad9d0b981"}
+[2026-03-01 21:11:00] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:11:01] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8b8bad88be4aca85839a325ad9d0b43d"}
+[2026-03-01 21:11:01] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:11:02] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"0b00278c548026c2839a325ad9d0b77c"}
+[2026-03-01 21:11:02] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:11:02] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:03] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:04] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:11:05] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:11:05] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c192501b26939d8facf14a4af9882728"}
+[2026-03-01 21:11:05] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:11:06] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c961036b2f56311cacf14a4af98823f7"}
+[2026-03-01 21:11:06] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:11:07] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"a0ace02eefa5861facf14a4af9882420"}
+[2026-03-01 21:11:07] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:11:07] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:11:07] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:08] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:10] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:11:11] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:11:12] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"70c3703773feaf2a3c28e45c66ba2f0b"}
+[2026-03-01 21:11:12] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:11:12] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"9264619313557741bddf4c1cc9e94ac5"}
+[2026-03-01 21:11:12] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:11:13] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"5063791834f608cdbddf4c1cc9e945e0"}
+[2026-03-01 21:11:13] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:11:13] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:11:13] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:15] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:16] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:11:17] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:11:17] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8ba4ae92cd52c37ded21848cc6dc8c37"}
+[2026-03-01 21:11:17] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:11:18] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"717af77fade2a478ed21848cc6dc8f1e"}
+[2026-03-01 21:11:18] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:11:19] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"1b28127d113ea0b9ed21848cc6dc80c3"}
+[2026-03-01 21:11:19] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:11:19] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:22] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:22] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:24] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:29] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:11:29] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:31] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:31] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:11:33] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:11:34] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8a06552b82a6a7e3a75cd237611cea94"}
+[2026-03-01 21:11:34] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:11:34] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8fbb88a7ba40f20aa75cd237611ce736"}
+[2026-03-01 21:11:34] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:11:35] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"dc77161be47b7fde21106e963584b1ae"}
+[2026-03-01 21:11:35] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:11:35] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:11:35] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:11:36] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:11:37] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:11:38] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:11:38] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c76824a9a0b669e988906afdf2242096"}
+[2026-03-01 21:11:38] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:11:39] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"0fc319435f4b4bd288906afdf2242b3c"}
+[2026-03-01 21:11:39] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:11:40] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"de1b67b0b081d3e288906afdf22422b4"}
+[2026-03-01 21:11:40] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:11:59] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:03] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:03] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:04] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:05] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"48e7f67b1ce4fc7ce8c4ef323bacbd63"}
+[2026-03-01 21:12:05] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:12:05] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"48d72db24b9a00e1e8c4ef323bacbb00"}
+[2026-03-01 21:12:05] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:12:06] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"92e80bc0ebc05ed4979bee3753ad1184"}
+[2026-03-01 21:12:06] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:12:06] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:08] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:09] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:09] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:10] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"a49a42fb9e111dbe691c0aba8d8558c7"}
+[2026-03-01 21:12:10] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:12:11] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"045f952ef197636d691c0aba8d855811"}
+[2026-03-01 21:12:11] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:12:12] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"9a64d555f7c08ab9691c0aba8d855041"}
+[2026-03-01 21:12:12] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:12:12] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:12:12] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:14] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:14] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:15] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:16] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"6e4f01d0214e66112f56a11e0157231d"}
+[2026-03-01 21:12:16] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:12:16] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"95031cbbdb29a8e72f56a11e01572b09"}
+[2026-03-01 21:12:16] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:12:17] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"d14b9a4cbb3322b92f56a11e01572666"}
+[2026-03-01 21:12:17] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:12:17] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:12:17] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:19] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:20] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:21] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:22] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"0ce5fb58a445e2f8bdbf70136fa2ad5d"}
+[2026-03-01 21:12:22] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:12:23] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"158ab0518f6a8013bdbf70136fa2a0d7"}
+[2026-03-01 21:12:23] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:12:23] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"875ab8bb18cce43abdbf70136fa2a04e"}
+[2026-03-01 21:12:23] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:12:23] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:25] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:25] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:28] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:40] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:12:40] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:42] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:43] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:43] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:44] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"4ced17447629d88720d05a61618d1d52"}
+[2026-03-01 21:12:44] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:12:45] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"09c3f259862cdad420d05a61618d1082"}
+[2026-03-01 21:12:45] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:12:45] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"0f9fa977e03edea620d05a61618d1046"}
+[2026-03-01 21:12:45] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:12:45] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:12:45] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:12:47] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:12:47] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:48] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:49] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"68364f5a3d58e26543a602c55b49ff25"}
+[2026-03-01 21:12:49] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:12:50] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"0e8c98a03aea4bbf43a602c55b49fb04"}
+[2026-03-01 21:12:50] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:12:51] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"7c12fd64dc852b6243a602c55b49f085"}
+[2026-03-01 21:12:51] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:12:51] [INFO] get_org_members: Fetching members for org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:51] [INFO] list_organization_members: Listed members for org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:51] [INFO] get_org_members: Returning 2 members for org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:12:54] [INFO] get_org_members: Fetching members for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:55] [INFO] list_organization_members: Listed members for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:12:55] [INFO] get_org_members: Returning 2 members for org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:13:01] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:13:02] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:13:03] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:13:04] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:13:04] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"f583388b6400fdc9ca51b5901c5bcce2"}
+[2026-03-01 21:13:04] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:13:05] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"6b8ed2c26b378ff0ca51b5901c5bce6d"}
+[2026-03-01 21:13:05] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:13:05] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c458c0de6fe5126bca51b5901c5bce02"}
+[2026-03-01 21:13:05] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:13:05] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:13:08] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:13:09] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:13:09] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:13:10] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"9d415438381e309f519907752190abe7"}
+[2026-03-01 21:13:10] [INFO] db_stats: excluding ghost org 'asmmww' from approved count
+[2026-03-01 21:13:10] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"19a00df71bb78cd5519907752190a49e"}
+[2026-03-01 21:13:10] [INFO] db_stats: excluding ghost org 'kumart' from approved count
+[2026-03-01 21:13:11] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"c90eaf8052c2554f519907752190a872"}
+[2026-03-01 21:13:11] [INFO] db_stats: excluding ghost org 'ku' from approved count
+[2026-03-01 21:13:11] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:13:11] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:13:12] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:13:12] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:13:13] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:13:14] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"f70c21594f3fd8733455317634ccfe3e"}
+[2026-03-01 21:13:14] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:13:14] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"bb63fd0f3655ed0734f6c309b8a2db46"}
+[2026-03-01 21:13:14] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:13:15] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"0fbe1583c94e7e89736f7f369175957f"}
+[2026-03-01 21:13:15] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:13:15] [INFO] get_signups: Fetching signups (verified_only=True)
+[2026-03-01 21:13:15] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:13:17] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:13:17] [INFO] get_clerk_organization: Fetched org org_3ALZNGZwoQRZd2eV3Zd9WIAsyzA
+[2026-03-01 21:13:18] [INFO] get_clerk_organization: Fetched org org_3ALZ5NoZl57DCNafd4q5XSFJD9r
+[2026-03-01 21:13:19] [INFO] get_clerk_organization: Error fetching org org_3AL6CtqxdAXVnyCVTBI4RZ04DGl - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"6b18add6bf967be3736f7f3691759c6f"}
+[2026-03-01 21:13:19] [INFO] get_signups: Skipping unverified org 'asmmww' (org_3AL6CtqxdAXVnyCVTBI4RZ04DGl)
+[2026-03-01 21:13:19] [INFO] get_clerk_organization: Error fetching org org_3AKfhZBPovKbtefjmMgIvbLnUcC - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"7ca000a5abcb14ff736f7f3691759861"}
+[2026-03-01 21:13:19] [INFO] get_signups: Skipping unverified org 'kumart' (org_3AKfhZBPovKbtefjmMgIvbLnUcC)
+[2026-03-01 21:13:20] [INFO] get_clerk_organization: Error fetching org org_3AFUbUTlvrP96QIWzSVsMHdt6UI - {"errors":[{"message":"not found","long_message":"Resource not found","code":"resource_not_found"}],"clerk_trace_id":"8e27b9514df8a04a3626f1601c6d4355"}
+[2026-03-01 21:13:20] [INFO] get_signups: Skipping unverified org 'ku' (org_3AFUbUTlvrP96QIWzSVsMHdt6UI)
+[2026-03-01 21:13:20] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:13:22] [INFO] list_org_signups: Found 6 signups
+[2026-03-01 21:13:22] [INFO] list_org_signups: Fetching all signups
+[2026-03-01 21:13:24] [INFO] list_org_signups: Found 6 signups

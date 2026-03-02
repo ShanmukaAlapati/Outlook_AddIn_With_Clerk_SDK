@@ -1,0 +1,281 @@
+[2026-02-15 17:18:36] Starting Flask app on https://127.0.0.1:5000
+[2026-02-15 17:18:38] Starting Flask app on https://127.0.0.1:5000
+[2026-02-15 22:21:25] Starting Flask app on https://127.0.0.1:5000
+[2026-02-15 22:21:27] Starting Flask app on https://127.0.0.1:5000
+[2026-02-15 22:37:22] Serving signInPage.html
+[2026-02-15 22:39:43] Starting Flask app on https://127.0.0.1:5000
+[2026-02-15 22:39:45] Starting Flask app on https://127.0.0.1:5000
+[2026-02-15 22:40:01] Serving signInPage.html
+[2026-02-15 22:40:57] Database connection successful
+[2026-02-15 22:40:57] /health: db_healthy=True
+[2026-02-15 22:42:06] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 22:42:30] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 22:42:31] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 22:42:34] Serving signInPage.html
+[2026-02-15 22:46:38] Serving signInPage.html
+[2026-02-15 22:46:48] Serving signInPage.html
+[2026-02-15 22:52:41] check_user: Endpoint called
+[2026-02-15 22:52:41] check_user: Authorization header present=True
+[2026-02-15 22:52:41] check_user: Token extracted, length=921
+[2026-02-15 22:52:41] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 22:52:41] get_jwks_client: Checking JWKS cache
+[2026-02-15 22:52:41] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-15 22:52:41] get_jwks_client: Error - CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:52:41] verify_and_decode_clerk_token: Unexpected error - CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:52:41] check_user: Invalid token - Token verification failed: CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:57:24] check_user: Endpoint called
+[2026-02-15 22:57:24] check_user: Authorization header present=True
+[2026-02-15 22:57:24] check_user: Token extracted, length=921
+[2026-02-15 22:57:24] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 22:57:24] get_jwks_client: Checking JWKS cache
+[2026-02-15 22:57:24] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-15 22:57:24] get_jwks_client: Error - CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:57:24] verify_and_decode_clerk_token: Unexpected error - CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:57:24] check_user: Invalid token - Token verification failed: CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:58:30] check_user: Endpoint called
+[2026-02-15 22:58:30] check_user: Authorization header present=True
+[2026-02-15 22:58:30] check_user: Token extracted, length=921
+[2026-02-15 22:58:30] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 22:58:30] get_jwks_client: Checking JWKS cache
+[2026-02-15 22:58:30] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-15 22:58:30] get_jwks_client: Error - CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:58:30] verify_and_decode_clerk_token: Unexpected error - CLERK_FRONTEND_API environment variable not set
+[2026-02-15 22:58:30] check_user: Invalid token - Token verification failed: CLERK_FRONTEND_API environment variable not set
+[2026-02-15 23:02:04] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:02:23] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:02:24] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:02:44] check_user: Endpoint called
+[2026-02-15 23:02:44] check_user: Authorization header present=True
+[2026-02-15 23:02:44] check_user: Token extracted, length=921
+[2026-02-15 23:02:44] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 23:02:44] get_jwks_client: Checking JWKS cache
+[2026-02-15 23:02:44] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-15 23:02:44] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-15 23:02:44] get_jwks_client: JWKS client created and cached
+[2026-02-15 23:02:44] verify_and_decode_clerk_token: Token kid (key ID)=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-15 23:02:45] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-15 23:02:45] verify_and_decode_clerk_token: Token verified and decoded, claims keys=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-15 23:02:45] verify_and_decode_clerk_token: auth_info created for user_id=user_39baAXMxtH6IUiffXuphp926CRZ, email=None
+[2026-02-15 23:02:45] check_user: Token verified successfully, user_id=user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:02:45] check_user: AUTH_INFO={'user_id': 'user_39baAXMxtH6IUiffXuphp926CRZ', 'email': None, 'full_name': None, 'username': None, 'all_emails': [], 'org_id': None, 'org_slug': None, 'org_name': None, 'org_role': None, 'org_permissions': [], 'session_id': 'sess_39iRANmQ4K6Tblx2MLVJHBFjSeM', 'session_status': 'active', 'session_last_active_at': 1771176762, 'session_expire_at': 1771176822, 'session_created_at': 1771176762, 'session_updated_at': 1771176762, 'raw_token': 'eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zOVQyUVlOeWFoaHJWbmladTBRVkQ2YzhLWHIiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJleHAiOjE3NzExNzY4MjIsImZ2YSI6WzAsLTFdLCJpYXQiOjE3NzExNzY3NjIsImlzcyI6Imh0dHBzOi8vaW1tb3J0YWwtYW5jaG92eS05Ni5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NzExNzY3NTIsIm8iOnsiaWQiOiJvcmdfMzlaTW9xanJWZjhKeEczNFN4ZUNsTWkxYjF3Iiwicm9sIjoiYWRtaW4iLCJzbGciOiJwYXZhbi1zYWktMTc3MDg5OTMxNiJ9LCJzaWQiOiJzZXNzXzM5aVJBTm1RNEs2VGJseDJNTFZKSEJGalNlTSIsInN0cyI6ImFjdGl2ZSIsInN1YiI6InVzZXJfMzliYUFYTXh0SDZJVWlmZlh1cGhwOTI2Q1JaIiwidiI6Mn0.k3Gto0PMFOljZ4mtxmb1SL_MeN1ylOMVy7xBi_EkROguBbqf22zXyP7Vx7OD1vXRr-Q7JvcWKWWRQK2MN_BCnV2cthhF0xs2lEu1HH90LBw4se7M2H5scvc16-G7HUbJv2C-ozSEKvhbFajJyVlan0tZP30SnIUxbnhitprTXmh8mTG5sbSNg3lN-dHHQLFy7GDQt0JNOJn4r9neJB69Xl2RltkC5eMcf42199uowmgFl1NdIFqMFPjcsBd8yOaoPXhWE6n2RkQruPXTloo2YHmZYBJkLDeUrLtnAGLKw8ztN9pUZvC-UX2QvzNxL64fcUMTo2F_lx1S9Cw44XDPRA'}
+[2026-02-15 23:02:45] compute_redirect_url: org_role=None, org_slug=None, email=None
+[2026-02-15 23:02:45] compute_redirect_url: Redirecting to user-dashboard (default)
+[2026-02-15 23:02:45] check_user: Computed redirect_url=/user-dashboard.html
+[2026-02-15 23:02:45] check_user: Response prepared - superAdmin=False, approved=False
+[2026-02-15 23:10:09] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:11:34] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:15:56] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:15:57] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:16:14] check_user: Endpoint called
+[2026-02-15 23:16:14] check_user: Authorization header present=True
+[2026-02-15 23:16:14] check_user: Token extracted, length=921
+[2026-02-15 23:16:14] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 23:16:14] get_jwks_client: Checking JWKS cache
+[2026-02-15 23:16:14] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-15 23:16:14] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-15 23:16:14] get_jwks_client: JWKS client created and cached
+[2026-02-15 23:16:14] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-15 23:16:14] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-15 23:16:14] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-15 23:16:14] verify_and_decode_clerk_token: Verified user_id=user_39baAXMxtH6IUiffXuphp926CRZ, org_id=org_39ZMoqjrVf8JxG34SxeClMi1b1w, org_role=admin
+[2026-02-15 23:16:14] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-15 23:16:14] get_clerk_user_data: Fetching data for user_id=user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:16:16] get_clerk_user_data: Successfully fetched data for user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:16:16] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-15 23:16:16] get_clerk_organization_data: Fetching data for org_id=org_39ZMoqjrVf8JxG34SxeClMi1b1w
+[2026-02-15 23:16:16] get_clerk_organization_data: Successfully fetched data for org_39ZMoqjrVf8JxG34SxeClMi1b1w
+[2026-02-15 23:16:16] verify_and_decode_clerk_token: Complete - user=saiganeshalapati1311@gmail.com, role=org:admin
+[2026-02-15 23:16:16] check_user: Token verified successfully, user_id=user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:16:16] ============================================================
+[2026-02-15 23:16:16] AUTH_INFO DETAILS:
+[2026-02-15 23:16:16]   User ID:        user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:16:16]   Email:          saiganeshalapati1311@gmail.com
+[2026-02-15 23:16:16]   Full Name:      Sai Ganesh
+[2026-02-15 23:16:16]   Username:       None
+[2026-02-15 23:16:16]   Organization:
+[2026-02-15 23:16:16]     - Org ID:     org_39ZMoqjrVf8JxG34SxeClMi1b1w
+[2026-02-15 23:16:16]     - Org Slug:   pavan-sai-1770899316
+[2026-02-15 23:16:16]     - Org Name:   Pavan Sai
+[2026-02-15 23:16:16]     - Org Role:   org:admin
+[2026-02-15 23:16:16]   Session:
+[2026-02-15 23:16:16]     - Session ID: sess_39iSo4U53aQWSAzbPnk8fgmb5V3
+[2026-02-15 23:16:16]     - Status:     active
+[2026-02-15 23:16:16] ============================================================
+[2026-02-15 23:16:16] compute_redirect_url: org_role=org:admin, org_slug=pavan-sai-1770899316, email=saiganeshalapati1311@gmail.com
+[2026-02-15 23:16:16] compute_redirect_url: Redirecting to org-dashboard (org:admin)
+[2026-02-15 23:16:16] check_user: Computed redirect_url=/org-dashboard.html
+[2026-02-15 23:16:16] check_user: Response prepared - superAdmin=False, approved=True
+[2026-02-15 23:17:17] check_user: Endpoint called
+[2026-02-15 23:17:17] check_user: Authorization header present=True
+[2026-02-15 23:17:17] check_user: Token extracted, length=917
+[2026-02-15 23:17:17] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 23:17:17] get_jwks_client: Checking JWKS cache
+[2026-02-15 23:17:17] get_jwks_client: Using cached JWKS client
+[2026-02-15 23:17:17] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-15 23:17:17] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-15 23:17:17] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-15 23:17:17] verify_and_decode_clerk_token: Verified user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0, org_id=org_39WOZVXjqqKmbUoKJkcIN86jYeo, org_role=member
+[2026-02-15 23:17:17] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-15 23:17:17] get_clerk_user_data: Fetching data for user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:17:18] get_clerk_user_data: Successfully fetched data for user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:17:18] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-15 23:17:18] get_clerk_organization_data: Fetching data for org_id=org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:17:19] get_clerk_organization_data: Successfully fetched data for org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:17:19] verify_and_decode_clerk_token: Complete - user=saiganesh1311@yahoo.com, role=org:member
+[2026-02-15 23:17:19] check_user: Token verified successfully, user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:17:19] ============================================================
+[2026-02-15 23:17:19] AUTH_INFO DETAILS:
+[2026-02-15 23:17:19]   User ID:        user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:17:19]   Email:          saiganesh1311@yahoo.com
+[2026-02-15 23:17:19]   Full Name:      Shan A
+[2026-02-15 23:17:19]   Username:       None
+[2026-02-15 23:17:19]   Organization:
+[2026-02-15 23:17:19]     - Org ID:     org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:17:19]     - Org Slug:   arvya-1770808415
+[2026-02-15 23:17:19]     - Org Name:   Arvya
+[2026-02-15 23:17:19]     - Org Role:   org:member
+[2026-02-15 23:17:19]   Session:
+[2026-02-15 23:17:19]     - Session ID: sess_39iSwCwyX0PbGVmKiigzcwAuiGa
+[2026-02-15 23:17:19]     - Status:     active
+[2026-02-15 23:17:19] ============================================================
+[2026-02-15 23:17:19] compute_redirect_url: org_role=org:member, org_slug=arvya-1770808415, email=saiganesh1311@yahoo.com
+[2026-02-15 23:17:19] compute_redirect_url: Redirecting to org-dashboard (role=org:member)
+[2026-02-15 23:17:19] check_user: Computed redirect_url=/org-dashboard.html
+[2026-02-15 23:17:19] check_user: Response prepared - superAdmin=False, approved=True
+[2026-02-15 23:37:38] check_user: Endpoint called
+[2026-02-15 23:37:38] check_user: Authorization header present=True
+[2026-02-15 23:37:38] check_user: Token extracted, length=917
+[2026-02-15 23:37:38] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 23:37:38] get_jwks_client: Checking JWKS cache
+[2026-02-15 23:37:38] get_jwks_client: Using cached JWKS client
+[2026-02-15 23:37:38] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-15 23:37:38] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-15 23:37:38] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-15 23:37:38] verify_and_decode_clerk_token: Verified user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0, org_id=org_39WOZVXjqqKmbUoKJkcIN86jYeo, org_role=member
+[2026-02-15 23:37:38] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-15 23:37:38] get_clerk_user_data: Fetching data for user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:37:40] get_clerk_user_data: Successfully fetched data for user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:37:40] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-15 23:37:40] get_clerk_organization_data: Fetching data for org_id=org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:37:41] get_clerk_organization_data: Successfully fetched data for org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:37:41] verify_and_decode_clerk_token: Complete - user=saiganesh1311@yahoo.com, role=org:member
+[2026-02-15 23:37:41] check_user: Token verified successfully, user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:37:41] ============================================================
+[2026-02-15 23:37:41] AUTH_INFO DETAILS:
+[2026-02-15 23:37:41]   User ID:        user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:37:41]   Email:          saiganesh1311@yahoo.com
+[2026-02-15 23:37:41]   Full Name:      Shan A
+[2026-02-15 23:37:41]   Username:       None
+[2026-02-15 23:37:41]   Organization:
+[2026-02-15 23:37:41]     - Org ID:     org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:37:41]     - Org Slug:   arvya-1770808415
+[2026-02-15 23:37:41]     - Org Name:   Arvya
+[2026-02-15 23:37:41]     - Org Role:   org:member
+[2026-02-15 23:37:41]   Session:
+[2026-02-15 23:37:41]     - Session ID: sess_39iVPjbcXzmPDTJgbOhAwEHENzB
+[2026-02-15 23:37:41]     - Status:     active
+[2026-02-15 23:37:41] ============================================================
+[2026-02-15 23:37:41] compute_redirect_url: org_role=org:member, org_slug=arvya-1770808415, email=saiganesh1311@yahoo.com
+[2026-02-15 23:37:41] compute_redirect_url: Redirecting to org-dashboard (role=org:member)
+[2026-02-15 23:37:41] check_user: Computed redirect_url=/org-dashboard.html
+[2026-02-15 23:37:41] check_user: Response prepared - superAdmin=False, approved=True
+[2026-02-15 23:44:46] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:45:24] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:46:45] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:46:46] Starting Flask app on http://127.0.0.1:5000
+[2026-02-15 23:48:07] check_user: Endpoint called
+[2026-02-15 23:48:07] check_user: Authorization header present=True
+[2026-02-15 23:48:07] check_user: Token extracted, length=917
+[2026-02-15 23:48:07] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 23:48:07] get_jwks_client: Checking JWKS cache
+[2026-02-15 23:48:07] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-15 23:48:07] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-15 23:48:07] get_jwks_client: JWKS client created and cached
+[2026-02-15 23:48:07] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-15 23:48:07] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-15 23:48:07] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-15 23:48:07] verify_and_decode_clerk_token: Verified user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0, org_id=org_39WOZVXjqqKmbUoKJkcIN86jYeo, org_role=member
+[2026-02-15 23:48:07] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-15 23:48:07] get_clerk_user_data: Fetching data for user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:48:09] get_clerk_user_data: Successfully fetched data for user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:48:09] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-15 23:48:09] get_clerk_organization_data: Fetching data for org_id=org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:48:10] get_clerk_organization_data: Successfully fetched data for org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:48:10] verify_and_decode_clerk_token: Complete - user=saiganesh1311@yahoo.com, role=org:member
+[2026-02-15 23:48:10] check_user: Token verified successfully, user_id=user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:48:10] ============================================================
+[2026-02-15 23:48:10] AUTH_INFO DETAILS:
+[2026-02-15 23:48:10]   User ID:        user_39bULoWoQ9gKtrTPfXuPaRBsuF0
+[2026-02-15 23:48:10]   Email:          saiganesh1311@yahoo.com
+[2026-02-15 23:48:10]   Full Name:      Shan A
+[2026-02-15 23:48:10]   Username:       None
+[2026-02-15 23:48:10]   Organization:
+[2026-02-15 23:48:10]     - Org ID:     org_39WOZVXjqqKmbUoKJkcIN86jYeo
+[2026-02-15 23:48:10]     - Org Slug:   arvya-1770808415
+[2026-02-15 23:48:10]     - Org Name:   Arvya
+[2026-02-15 23:48:10]     - Org Role:   org:member
+[2026-02-15 23:48:10]   Session:
+[2026-02-15 23:48:10]     - Session ID: sess_39iWgjGx326d7XvNNqZ8YNdJume
+[2026-02-15 23:48:10]     - Status:     active
+[2026-02-15 23:48:10] ============================================================
+[2026-02-15 23:48:10] check_user: Response prepared - role=org:member
+[2026-02-15 23:51:13] check_user: Endpoint called
+[2026-02-15 23:51:13] check_user: Authorization header present=True
+[2026-02-15 23:51:13] check_user: Token extracted, length=921
+[2026-02-15 23:51:13] verify_and_decode_clerk_token: Starting token verification
+[2026-02-15 23:51:13] get_jwks_client: Checking JWKS cache
+[2026-02-15 23:51:13] get_jwks_client: Using cached JWKS client
+[2026-02-15 23:51:13] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-15 23:51:13] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-15 23:51:13] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-15 23:51:13] verify_and_decode_clerk_token: Verified user_id=user_39baAXMxtH6IUiffXuphp926CRZ, org_id=org_39ZMoqjrVf8JxG34SxeClMi1b1w, org_role=admin
+[2026-02-15 23:51:13] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-15 23:51:13] get_clerk_user_data: Fetching data for user_id=user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:51:14] get_clerk_user_data: Successfully fetched data for user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:51:14] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-15 23:51:14] get_clerk_organization_data: Fetching data for org_id=org_39ZMoqjrVf8JxG34SxeClMi1b1w
+[2026-02-15 23:51:15] get_clerk_organization_data: Successfully fetched data for org_39ZMoqjrVf8JxG34SxeClMi1b1w
+[2026-02-15 23:51:15] verify_and_decode_clerk_token: Complete - user=saiganeshalapati1311@gmail.com, role=org:admin
+[2026-02-15 23:51:15] check_user: Token verified successfully, user_id=user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:51:15] ============================================================
+[2026-02-15 23:51:15] AUTH_INFO DETAILS:
+[2026-02-15 23:51:15]   User ID:        user_39baAXMxtH6IUiffXuphp926CRZ
+[2026-02-15 23:51:15]   Email:          saiganeshalapati1311@gmail.com
+[2026-02-15 23:51:15]   Full Name:      Sai Ganesh
+[2026-02-15 23:51:15]   Username:       None
+[2026-02-15 23:51:15]   Organization:
+[2026-02-15 23:51:15]     - Org ID:     org_39ZMoqjrVf8JxG34SxeClMi1b1w
+[2026-02-15 23:51:15]     - Org Slug:   pavan-sai-1770899316
+[2026-02-15 23:51:15]     - Org Name:   Pavan Sai
+[2026-02-15 23:51:15]     - Org Role:   org:admin
+[2026-02-15 23:51:15]   Session:
+[2026-02-15 23:51:15]     - Session ID: sess_39iX47H5B99GeBBG0F1MnhZhY3B
+[2026-02-15 23:51:15]     - Status:     active
+[2026-02-15 23:51:15] ============================================================
+[2026-02-15 23:51:15] check_user: Response prepared - role=org:admin
+[2026-02-15 23:51:35] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:01:28] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:04:50] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:14:50] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:14:52] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:15:13] init_db: Creating schema
+[2026-02-16 00:15:15] ensure_schema: Schema and tables created successfully
+[2026-02-16 00:17:23] register_org: Endpoint called
+[2026-02-16 00:17:23] register_org: Validation passed for email=saiganeshalapati1311@hotmail.com
+[2026-02-16 00:17:25] check_email_exists: Email saiganeshalapati1311@hotmail.com not found
+[2026-02-16 00:17:27] create_signup: Creating signup for email=saiganeshalapati1311@hotmail.com
+[2026-02-16 00:17:27] create_signup: Signup created successfully - id=1771181245509
+[2026-02-16 00:17:27] register_org: Signup created - id=1771181245509
+[2026-02-16 00:18:06] get_signups: Fetching all signups
+[2026-02-16 00:18:06] list_org_signups: Fetching all signups
+[2026-02-16 00:18:07] list_org_signups: Found 1 signups
+[2026-02-16 00:18:40] get_pending_signups_new: Fetching pending signups
+[2026-02-16 00:18:40] list_pending_signups: Fetching pending signups
+[2026-02-16 00:18:42] list_pending_signups: Found 1 pending signups
+[2026-02-16 00:18:54] db_stats: Fetching database statistics
+[2026-02-16 00:18:54] get_db_stats: Fetching database statistics
+[2026-02-16 00:18:56] get_db_stats: {'total': 1, 'pending': 1, 'approved': 0, 'rejected': 0}
+[2026-02-16 00:40:46] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:44:37] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:48:18] Starting Flask app on http://127.0.0.1:5000
+[2026-02-16 00:48:19] Starting Flask app on http://127.0.0.1:5000

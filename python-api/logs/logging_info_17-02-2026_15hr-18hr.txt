@@ -1,0 +1,638 @@
+[2026-02-17 15:02:46] [INFO] update_user: Updating user user_39n1SGOh2AzoJDezZV7FxqfPqlo
+[2026-02-17 15:02:46] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:02:46] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:02:46] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-17 15:02:46] [INFO] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-17 15:02:46] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-17 15:02:46] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:02:48] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:02:48] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:02:48] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:02:48] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:02:48] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:02:50] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:02:50] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:02:50] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:02:51] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:02:51] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:02:51] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:02:51] [INFO] update_local_user_fields: Updating user user_39n1SGOh2AzoJDezZV7FxqfPqlo with {'level': 1, 'role': 'admin'}
+[2026-02-17 15:02:57] [INFO] update_clerk_user_level: Updated user user_39n1SGOh2AzoJDezZV7FxqfPqlo level to 1
+[2026-02-17 15:02:59] [INFO] update_org_membership_role: Updated user user_39n1SGOh2AzoJDezZV7FxqfPqlo role to org:admin in org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:03:00] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:03:00] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:03:00] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:03:00] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:03:00] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:03:00] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:03:00] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:03:00] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:03:00] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:03:00] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:03:01] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:03:01] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:03:01] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:03:03] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:03:03] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:03:03] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:03:03] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:03:05] [INFO] get_users_by_org: Found 1 users
+[2026-02-17 15:06:39] [INFO] create_clerk_user: Received body={'token': 'eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zOVQyUVlOeWFoaHJWbmladTBRVkQ2YzhLWHIiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDIiLCJleHAiOjE3NzEzMjEwNDQsImZ2YSI6WzkzLC0xXSwiaWF0IjoxNzcxMzIwOTg0LCJpc3MiOiJodHRwczovL2ltbW9ydGFsLWFuY2hvdnktOTYuY2xlcmsuYWNjb3VudHMuZGV2IiwibmJmIjoxNzcxMzIwOTc0LCJvIjp7ImlkIjoib3JnXzM5bXh5SWtUUkx1NkRuUDF5c05TR2F3VEkySyIsInJvbCI6ImFkbWluIiwic2xnIjoiamFuZSJ9LCJzaWQiOiJzZXNzXzM5bXk0cGpaMm51eUozWE4wTEkzNGFEZlMyRCIsInN0cyI6ImFjdGl2ZSIsInN1YiI6InVzZXJfMzlteHk5aUs0ZnZ4QUhZRDdQa0dnMFdxSUVTIiwidiI6Mn0.yB3enefSSGM1oEWa_6KwUsz1KmVh_bCSuQ40CInVQWqCKRFWXZpS5d0g0LRxzGao4trgyn8Ubt3xtFyEyHLw09wwRmvdAvaWFFWLbcVOfR-h47nnAUiWAt6Lp24bVV2fLGKlgEEsIus6FWLxnQQD1REQfsY0LdGw8XDmCL8V2u9hVoEE6aZbl8erQOje4JkalcURtKJ1l5fgXJVJcClb5rW2Y5MSnbulpAeL8frTvZz5bGKqMLNgb8t-c65KP6SzJUJTxK2cXZ_sZXyHFKg00ulnqFzXDg3KjXvHh5AtBmD2sQ-Gqhtxl28W0GXx4YZPfZk88qsBE-w7yvSDxtrHAA', 'email': 'jane+clerk_test@example.com', 'firstName': 'Manoj', 'lastName': '', 'role': 'member', 'level': 2}
+[2026-02-17 15:06:39] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:06:39] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:06:39] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:06:39] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:06:39] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:06:39] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:06:39] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:06:39] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:06:39] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:06:41] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:06:41] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:06:41] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:06:43] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:06:43] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:06:43] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:06:43] [INFO] create_clerk_user: Token verified for user user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:06:44] [INFO] get_or_create_clerk_user: Error listing users for jane+clerk_test@example.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-17 15:06:45] [INFO] get_or_create_clerk_user: User jane+clerk_test@example.com already exists during create, fetching...
+[2026-02-17 15:06:45] [INFO] create_clerk_user: Unexpected error - Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-17 15:09:08] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-17 15:09:15] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-17 15:18:40] [INFO] check_user: Endpoint called
+[2026-02-17 15:18:40] [INFO] check_user: Token extracted, length=902
+[2026-02-17 15:18:40] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:18:40] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:18:40] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-17 15:18:40] [INFO] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-17 15:18:40] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-17 15:18:41] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:18:42] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:18:42] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:18:42] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:18:42] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:18:42] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:18:44] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:18:44] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:18:44] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:18:45] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:18:45] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:18:45] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:18:45] [INFO] check_user: Token verified successfully, user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:18:45] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-17 15:19:17] [INFO] create_clerk_user: Received body={'token': 'eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zOVQyUVlOeWFoaHJWbmladTBRVkQ2YzhLWHIiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJleHAiOjE3NzEzMjE4MDIsImZ2YSI6WzEwNiwtMV0sImlhdCI6MTc3MTMyMTc0MiwiaXNzIjoiaHR0cHM6Ly9pbW1vcnRhbC1hbmNob3Z5LTk2LmNsZXJrLmFjY291bnRzLmRldiIsIm5iZiI6MTc3MTMyMTczMiwibyI6eyJpZCI6Im9yZ18zOW14eUlrVFJMdTZEblAxeXNOU0dhd1RJMksiLCJyb2wiOiJhZG1pbiIsInNsZyI6ImphbmUifSwic2lkIjoic2Vzc18zOW15NHBqWjJudXlKM1hOMExJMzRhRGZTMkQiLCJzdHMiOiJhY3RpdmUiLCJzdWIiOiJ1c2VyXzM5bXh5OWlLNGZ2eEFIWUQ3UGtHZzBXcUlFUyIsInYiOjJ9.gJWvmfVSPV8iAuhSJkjn0i22EhXu9GtSgLDNy4deJq4iM4CKa1LbKjzLi8iVWMgstnKwzBfa3ZRW16PqahYuGzn7N-okHIYzVbuwcMQ5g00vk78QHKlQ_qQddtNnFL54oL3Ye7jjd-pZ-MFS3DjF0M60PzOUq5viW44bg4uxjA9hc04IHqshVOG2DE4aZma8c0sTgfzz8noEifxe08PTdogxs3VINDlC_MrSzuJ2seCemHQjzCZOKBqMJ9xg5v7HlLgwMQeiRa6meZNX4RgCWd_5ADHYsR7LEEwNOBN7Rd-eSUYqwTCErYjp0ekW5boGEvTYwaJmNwbZ3RxHp2HG8w', 'email': 'jane+clerk_test@example.com', 'firstName': 'Manoj', 'lastName': '', 'role': 'member', 'level': 2}
+[2026-02-17 15:19:17] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:19:17] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:19:17] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:19:17] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:19:17] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:19:17] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:19:17] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:19:17] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:19:17] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:19:19] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:19:19] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:19:19] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:19:20] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:19:20] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:19:20] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:19:20] [INFO] create_clerk_user: Token verified for user user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:19:23] [INFO] get_or_create_clerk_user: Error listing users for jane+clerk_test@example.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-17 15:19:23] [INFO] get_or_create_clerk_user: User jane+clerk_test@example.com already exists during create, fetching...
+[2026-02-17 15:19:23] [INFO] create_clerk_user: Unexpected error - Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-17 15:21:03] [INFO] create_clerk_user: Received body={'token': 'eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18zOVQyUVlOeWFoaHJWbmladTBRVkQ2YzhLWHIiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJleHAiOjE3NzEzMjE4OTEsImZ2YSI6WzEwNywtMV0sImlhdCI6MTc3MTMyMTgzMSwiaXNzIjoiaHR0cHM6Ly9pbW1vcnRhbC1hbmNob3Z5LTk2LmNsZXJrLmFjY291bnRzLmRldiIsIm5iZiI6MTc3MTMyMTgyMSwibyI6eyJpZCI6Im9yZ18zOW14eUlrVFJMdTZEblAxeXNOU0dhd1RJMksiLCJyb2wiOiJhZG1pbiIsInNsZyI6ImphbmUifSwic2lkIjoic2Vzc18zOW15NHBqWjJudXlKM1hOMExJMzRhRGZTMkQiLCJzdHMiOiJhY3RpdmUiLCJzdWIiOiJ1c2VyXzM5bXh5OWlLNGZ2eEFIWUQ3UGtHZzBXcUlFUyIsInYiOjJ9.lcl9cCrvtivFeW52nKpfKFMe7JhhCxc4jTkYi4GFp0ruXBItNLkdGVNgDg_mlZ5T49iz3jh-1b13ylDwbLu-6qsINb8yyqzsDvr-mZ1HbMBn2zr4RZD8kS48kR9-iR_9XEUN1dJUZDE6HOGiNx9cHCyU6gRgVenzYIpDrYFYF0rc4URpc4A44A4htb39F5IDCmMSks02o4zlB8qIiBliM_ukTOA8cvLErhznPGm5xi35FUblcgeqOKCc3pLe0JSe0x_et9aRAxjidnSO_nzrPZwdDJCsdkpOqzyDxz959CyyRN0t2S9k_Rhhl6cQ4S8_l3r1q0Y9pJAW79-Mk4TdlQ', 'email': 'koppanasrikanth@gmail.com', 'firstName': 'Manoj', 'lastName': '', 'role': 'member', 'level': 2}
+[2026-02-17 15:21:03] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:21:03] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:21:03] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:21:03] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:21:03] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:21:03] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:21:03] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:21:03] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:21:03] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:05] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:05] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:21:05] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:07] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:07] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:21:07] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:21:07] [INFO] create_clerk_user: Token verified for user user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:08] [INFO] get_or_create_clerk_user: Error listing users for koppanasrikanth@gmail.com: Users.list() got an unexpected keyword argument 'email_address'
+[2026-02-17 15:21:09] [INFO] get_or_create_clerk_user: Created new user user_39nBHjW23VWCxYZckCjLaRWhZvr for koppanasrikanth@gmail.com with level 2
+[2026-02-17 15:21:11] [INFO] add_organization_member: Added user user_39nBHjW23VWCxYZckCjLaRWhZvr to org org_39mxyIkTRLu6DnP1ysNSGawTI2K with role org:member
+[2026-02-17 15:21:11] [INFO] create_local_user: Saving user koppanasrikanth@gmail.com
+[2026-02-17 15:21:14] [INFO] create_local_user: User created successfully - id=7
+[2026-02-17 15:21:38] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:38] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:21:38] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:21:38] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:21:38] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:21:38] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:21:38] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:21:38] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:21:38] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:21:38] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:40] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:40] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:21:40] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:41] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:41] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:21:41] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:21:41] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:43] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:21:43] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:43] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:21:43] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:21:43] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:21:43] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:21:43] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:21:43] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:21:43] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:21:43] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:21:43] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:45] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:21:45] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:21:45] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:46] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:46] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:21:46] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:21:46] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:21:49] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:39:31] [INFO] check_user: Endpoint called
+[2026-02-17 15:39:31] [INFO] check_user: Token extracted, length=902
+[2026-02-17 15:39:31] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:39:31] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:39:31] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:39:31] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:39:31] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:39:31] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:39:31] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:39:31] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:39:31] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:39:33] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:39:33] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:39:33] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:39:35] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:39:35] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:39:35] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:39:35] [INFO] check_user: Token verified successfully, user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:39:35] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-17 15:42:52] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:42:52] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:42:52] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:42:52] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:42:52] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:42:52] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:42:52] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:42:52] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:42:52] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:42:52] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:42:55] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:42:55] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:42:55] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:42:57] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:42:57] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:42:57] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:42:57] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:42:59] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:42:59] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:42:59] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:42:59] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:42:59] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:42:59] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:42:59] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:42:59] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:42:59] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:43:00] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:43:00] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:43:01] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:43:01] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:43:01] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:43:03] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:43:03] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:43:03] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:43:03] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:43:05] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:44:01] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:01] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:44:01] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:44:01] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:44:01] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:44:01] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:44:01] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:44:01] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:44:01] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:44:01] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:03] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:03] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:44:03] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:05] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:05] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:44:05] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:44:05] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:07] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:44:07] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:07] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:44:07] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:44:07] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:44:07] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:44:07] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:44:07] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:44:07] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:44:07] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:44:07] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:10] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:10] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:44:10] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:11] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:11] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:44:11] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:44:11] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:13] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:44:23] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:23] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:44:23] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:44:23] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:44:23] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:44:23] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:44:23] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:44:23] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:44:23] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:44:23] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:24] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:24] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:44:24] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:25] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:26] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:44:26] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:44:26] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:28] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:44:28] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:28] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:44:28] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:44:28] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:44:28] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:44:28] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:44:28] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:44:28] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:44:28] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:44:28] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:30] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:44:30] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:44:30] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:32] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:32] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:44:32] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:44:32] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:44:34] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:45:02] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:02] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:45:02] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:45:02] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:45:02] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:45:02] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:45:02] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:45:02] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:45:02] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:45:02] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:45:04] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:45:04] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:45:04] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:05] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:05] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:45:05] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:45:05] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:08] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:45:08] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:08] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:45:08] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:45:08] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:45:08] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:45:08] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:45:08] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:45:08] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:45:08] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:45:08] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:45:09] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:45:09] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:45:09] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:11] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:11] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:45:11] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:45:11] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:45:13] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:46:04] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:04] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:46:04] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:46:04] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:46:04] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:46:04] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:46:04] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:46:04] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:46:04] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:46:04] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:46:06] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:46:06] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:46:06] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:08] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:08] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:46:08] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:46:08] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:11] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:46:11] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:11] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:46:11] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:46:11] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:46:11] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:46:11] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:46:11] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:46:11] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:46:11] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:46:11] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:46:13] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:46:13] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:46:13] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:14] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:14] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:46:14] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:46:14] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:46:17] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:48:37] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:37] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:48:37] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:48:37] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:48:37] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:48:37] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:48:37] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:48:37] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:48:37] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:48:37] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:48:39] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:48:39] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:48:39] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:40] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:40] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:48:40] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:48:40] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:42] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:48:43] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:43] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:48:43] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:48:43] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:48:43] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:48:43] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:48:43] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:48:43] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:48:43] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:48:43] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:48:44] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:48:44] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:48:44] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:45] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:45] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:48:45] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:48:45] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:48:48] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:50:53] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:50:53] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:50:53] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:50:53] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:50:53] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:50:53] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:50:53] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 15:51:07] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:07] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:51:07] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:51:07] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:51:07] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:51:07] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:51:07] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:51:07] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:51:07] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:51:07] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:51:09] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:51:09] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:51:09] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:10] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:10] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:51:10] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:51:10] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:13] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:51:13] [INFO] get_organization_users: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:13] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:51:13] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:51:13] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:51:13] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:51:13] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:51:13] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-17 15:51:13] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES, org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K, org_role=admin
+[2026-02-17 15:51:13] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-17 15:51:13] [INFO] get_clerk_user_data: Fetching data for user_id=user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:51:15] [INFO] get_clerk_user_data: Successfully fetched data for user_39mxy9iK4fvxAHYD7PkGg0WqIES
+[2026-02-17 15:51:15] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-17 15:51:15] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:16] [INFO] get_clerk_organization_data: Successfully fetched data for org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:16] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-17 15:51:16] [INFO] verify_and_decode_clerk_token: Complete - user=jane+clerk_test@example.com, role=org:admin
+[2026-02-17 15:51:16] [INFO] get_users_by_org: Fetching users for org org_39mxyIkTRLu6DnP1ysNSGawTI2K
+[2026-02-17 15:51:18] [INFO] get_users_by_org: Found 2 users
+[2026-02-17 15:57:15] [INFO] register_org: Endpoint called
+[2026-02-17 15:57:15] [INFO] register_org: Validation passed for email=jack+clerk_test@example.com
+[2026-02-17 15:57:18] [INFO] check_email_exists: Email jack+clerk_test@example.com not found
+[2026-02-17 15:57:20] [INFO] create_signup: Creating signup for email=jack+clerk_test@example.com
+[2026-02-17 15:57:21] [INFO] create_signup: Signup created successfully - id=1771324038550
+[2026-02-17 15:57:21] [INFO] register_org: Signup created - id=1771324038550
+[2026-02-17 15:58:40] [INFO] register_org: Endpoint called
+[2026-02-17 15:58:40] [INFO] register_org: Validation passed for email=doe+clerk_test@example.com
+[2026-02-17 15:58:43] [INFO] check_email_exists: Email doe+clerk_test@example.com not found
+[2026-02-17 15:58:45] [INFO] create_signup: Creating signup for email=doe+clerk_test@example.com
+[2026-02-17 15:58:46] [INFO] create_signup: Signup created successfully - id=1771324123428
+[2026-02-17 15:58:46] [INFO] register_org: Signup created - id=1771324123428
+[2026-02-17 15:59:13] [INFO] check_user: Endpoint called
+[2026-02-17 15:59:13] [INFO] check_user: Token extracted, length=900
+[2026-02-17 15:59:13] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:59:13] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:59:13] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:59:13] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:59:13] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:59:13] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 15:59:13] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 15:59:40] [INFO] check_user: Endpoint called
+[2026-02-17 15:59:40] [INFO] check_user: Token extracted, length=900
+[2026-02-17 15:59:40] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 15:59:40] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 15:59:40] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 15:59:40] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 15:59:40] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 15:59:40] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 15:59:40] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:02:04] [INFO] check_user: Endpoint called
+[2026-02-17 16:02:04] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:02:04] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:02:04] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:02:04] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:02:04] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:02:04] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:02:04] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:02:04] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:02:49] [INFO] check_user: Endpoint called
+[2026-02-17 16:02:49] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:02:49] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:02:49] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:02:49] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:02:49] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:02:49] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:02:49] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:02:49] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:04:41] [INFO] check_user: Endpoint called
+[2026-02-17 16:04:41] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:04:41] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:04:41] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:04:41] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:04:41] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:04:41] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:04:41] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:04:41] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:10] [INFO] check_user: Endpoint called
+[2026-02-17 16:05:10] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:05:10] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:05:10] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:05:10] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:05:10] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:05:10] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:05:10] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:10] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:18] [INFO] check_user: Endpoint called
+[2026-02-17 16:05:18] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:05:18] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:05:18] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:05:18] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:05:18] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:05:18] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:05:18] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:18] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:26] [INFO] check_user: Endpoint called
+[2026-02-17 16:05:26] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:05:26] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:05:26] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:05:26] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:05:26] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:05:26] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:05:26] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:26] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:34] [INFO] check_user: Endpoint called
+[2026-02-17 16:05:34] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:05:34] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:05:34] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:05:34] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:05:34] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:05:34] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:05:34] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:05:34] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:07:11] [INFO] check_user: Endpoint called
+[2026-02-17 16:07:11] [INFO] check_user: Token extracted, length=901
+[2026-02-17 16:07:11] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:07:11] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:07:11] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:07:11] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:07:11] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:07:11] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:07:11] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:09:01] [INFO] check_user: Endpoint called
+[2026-02-17 16:09:01] [INFO] check_user: Token extracted, length=930
+[2026-02-17 16:09:01] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:09:01] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:09:01] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:09:01] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:09:01] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:09:01] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:09:01] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:09:28] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-17 16:09:34] [INFO] Starting Flask app on http://127.0.0.1:5000
+[2026-02-17 16:09:40] [INFO] check_user: Endpoint called
+[2026-02-17 16:09:40] [INFO] check_user: Token extracted, length=930
+[2026-02-17 16:09:40] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:09:40] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:09:40] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-17 16:09:40] [INFO] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-17 16:09:40] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-17 16:09:40] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:09:41] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:09:41] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:09:41] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:13:07] [INFO] check_user: Endpoint called
+[2026-02-17 16:13:07] [INFO] check_user: Token extracted, length=930
+[2026-02-17 16:13:07] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:13:07] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:13:07] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:13:07] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:13:07] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:13:07] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:13:07] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:19:40] [INFO] check_user: Endpoint called
+[2026-02-17 16:19:40] [INFO] check_user: Token extracted, length=930
+[2026-02-17 16:19:40] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:19:40] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:19:40] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:19:40] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:19:40] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:19:40] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:19:40] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:20:31] [INFO] check_user: Endpoint called
+[2026-02-17 16:20:31] [INFO] check_user: Token extracted, length=930
+[2026-02-17 16:20:31] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 16:20:31] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 16:20:31] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 16:20:31] [INFO] verify_and_decode_clerk_token: Token kid=ins_39T2QYNyahhrVniZu0QVD6c8KXr
+[2026-02-17 16:20:31] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-17 16:20:31] [INFO] verify_and_decode_clerk_token: Invalid token - The token is not yet valid (iat)
+[2026-02-17 16:20:31] [INFO] check_user: Invalid token - The token is not yet valid (iat)
+[2026-02-17 17:23:01] [INFO] register_org: Endpoint called
+[2026-02-17 17:23:01] [INFO] register_org: Validation passed for email=pavansaikoppana@gmail.com
+[2026-02-17 17:23:03] [INFO] check_email_exists: Email pavansaikoppana@gmail.com not found
+[2026-02-17 17:23:05] [INFO] create_signup: Creating signup for email=pavansaikoppana@gmail.com
+[2026-02-17 17:23:07] [INFO] create_signup: Signup created successfully - id=1771329183438
+[2026-02-17 17:23:07] [INFO] register_org: Signup created - id=1771329183438
+[2026-02-17 17:28:55] [INFO] check_user: Endpoint called
+[2026-02-17 17:28:55] [INFO] check_user: Token extracted, length=794
+[2026-02-17 17:28:55] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 17:28:55] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 17:28:55] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-17 17:28:55] [INFO] get_jwks_client: JWKS URL=https://immortal-anchovy-96.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-17 17:28:55] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-17 17:28:55] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-17 17:28:58] [INFO] verify_and_decode_clerk_token: Unexpected error - Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:28:58] [INFO] check_user: Invalid token - Token verification failed: Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:32:30] [INFO] register_org: Endpoint called
+[2026-02-17 17:32:30] [INFO] register_org: Validation passed for email=pavansaikoppana@gmail.com
+[2026-02-17 17:32:33] [INFO] check_email_exists: Email pavansaikoppana@gmail.com exists - id=1771329183438, status=pending
+[2026-02-17 17:32:47] [INFO] register_org: Endpoint called
+[2026-02-17 17:32:47] [INFO] register_org: Validation passed for email=koppanapavansai@gmail.com
+[2026-02-17 17:32:49] [INFO] check_email_exists: Email koppanapavansai@gmail.com not found
+[2026-02-17 17:32:52] [INFO] create_signup: Creating signup for email=koppanapavansai@gmail.com
+[2026-02-17 17:32:53] [INFO] create_signup: Signup created successfully - id=1771329769911
+[2026-02-17 17:32:53] [INFO] register_org: Signup created - id=1771329769911
+[2026-02-17 17:33:15] [INFO] check_user: Endpoint called
+[2026-02-17 17:33:15] [INFO] check_user: Token extracted, length=797
+[2026-02-17 17:33:15] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 17:33:15] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 17:33:15] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 17:33:15] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-17 17:33:16] [INFO] verify_and_decode_clerk_token: Unexpected error - Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:33:16] [INFO] check_user: Invalid token - Token verification failed: Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:34:14] [INFO] check_user: Endpoint called
+[2026-02-17 17:34:14] [INFO] check_user: Token extracted, length=921
+[2026-02-17 17:34:14] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 17:34:14] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 17:34:14] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 17:34:14] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-17 17:34:15] [INFO] verify_and_decode_clerk_token: Unexpected error - Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:34:15] [INFO] check_user: Invalid token - Token verification failed: Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:38:14] [INFO] check_user: Endpoint called
+[2026-02-17 17:38:14] [INFO] check_user: Token extracted, length=921
+[2026-02-17 17:38:14] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-17 17:38:14] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-17 17:38:14] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-17 17:38:14] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-17 17:38:15] [INFO] verify_and_decode_clerk_token: Unexpected error - Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"
+[2026-02-17 17:38:15] [INFO] check_user: Invalid token - Token verification failed: Unable to find a signing key that matches: "ins_39nHwvhOwj65uasb0ALAKg16ebV"

@@ -1,0 +1,382 @@
+[2026-02-19 15:08:30] [INFO] get_signups: Fetching all signups
+[2026-02-19 15:08:30] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 15:08:32] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 15:08:32] [INFO] get_signups: Fetching all signups
+[2026-02-19 15:08:32] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 15:08:34] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 15:08:52] [INFO] db_stats: Fetching database statistics
+[2026-02-19 15:08:52] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 15:08:54] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 15:08:54] [INFO] db_stats: Fetching database statistics
+[2026-02-19 15:08:54] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 15:08:54] [INFO] get_signups: Fetching all signups
+[2026-02-19 15:08:54] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 15:08:57] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 15:08:57] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 15:08:57] [INFO] get_signups: Fetching all signups
+[2026-02-19 15:08:57] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 15:09:01] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 15:31:03] [INFO] check_user: Endpoint called
+[2026-02-19 15:31:03] [INFO] check_user: Token extracted, length=893
+[2026-02-19 15:31:03] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 15:31:03] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 15:31:03] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 15:31:03] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 15:31:03] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 15:31:03] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 15:31:03] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 15:31:03] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 15:31:03] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:05] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:05] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 15:31:05] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:06] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:06] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 15:31:06] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 15:31:06] [INFO] check_user: Token verified successfully, user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:06] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-19 15:31:08] [INFO] get_organization_users: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:08] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 15:31:08] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 15:31:08] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 15:31:08] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 15:31:08] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 15:31:08] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 15:31:08] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 15:31:08] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 15:31:08] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:08] [INFO] Client connected via Socket.IO
+[2026-02-19 15:31:09] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:09] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 15:31:09] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:11] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:11] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 15:31:11] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 15:31:11] [INFO] get_users_by_org: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:14] [INFO] get_users_by_org: Found 3 users
+[2026-02-19 15:31:14] [INFO] get_organization_users: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:14] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 15:31:14] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 15:31:14] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 15:31:14] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 15:31:14] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 15:31:14] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 15:31:14] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 15:31:14] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 15:31:14] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:16] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:16] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 15:31:16] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:17] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:17] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 15:31:17] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 15:31:17] [INFO] get_users_by_org: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:20] [INFO] Client disconnected from Socket.IO
+[2026-02-19 15:31:20] [INFO] get_users_by_org: Found 3 users
+[2026-02-19 15:31:22] [INFO] Client connected via Socket.IO
+[2026-02-19 15:31:23] [INFO] get_organization_users: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:23] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 15:31:23] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 15:31:23] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 15:31:23] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 15:31:23] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 15:31:23] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 15:31:23] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 15:31:23] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 15:31:23] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:24] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:31:24] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 15:31:24] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:27] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:27] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 15:31:27] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 15:31:27] [INFO] get_users_by_org: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:31:30] [INFO] get_users_by_org: Found 3 users
+[2026-02-19 15:37:36] [INFO] create_direct_conversation: Found existing conv 6
+[2026-02-19 15:37:39] [INFO] create_direct_conversation: Found existing conv 6
+[2026-02-19 15:37:39] [INFO] [SOCKET] User user_39q3ChkFMddgRgVR0F1K1A1seNn joined conversation 6 -> room conv_6
+[2026-02-19 15:37:42] [INFO] [SOCKET] User user_39q3ChkFMddgRgVR0F1K1A1seNn joined conversation 6 -> room conv_6
+[2026-02-19 15:38:41] [INFO] Client disconnected from Socket.IO
+[2026-02-19 15:38:42] [INFO] Client connected via Socket.IO
+[2026-02-19 15:38:43] [INFO] get_organization_users: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:38:43] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 15:38:43] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 15:38:43] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-19 15:38:43] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-19 15:38:43] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-19 15:38:43] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 15:38:44] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 15:38:44] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 15:38:44] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 15:38:44] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 15:38:44] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:38:46] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 15:38:46] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 15:38:46] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:38:47] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:38:47] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 15:38:47] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 15:38:47] [INFO] get_users_by_org: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 15:38:50] [INFO] get_users_by_org: Found 3 users
+[2026-02-19 16:01:26] [INFO] Client disconnected from Socket.IO
+[2026-02-19 16:01:38] [INFO] check_user: Endpoint called
+[2026-02-19 16:01:38] [INFO] check_user: Token extracted, length=797
+[2026-02-19 16:01:38] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 16:01:38] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 16:01:38] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 16:01:38] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 16:01:38] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 16:01:39] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 16:01:39] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pxH5AZHrquHY104cFXusRPSyF, org_id=None, org_role=None
+[2026-02-19 16:01:39] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 16:01:39] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-19 16:01:40] [INFO] get_clerk_user_data: Successfully fetched data for user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-19 16:01:40] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-19 16:01:40] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-19 16:01:40] [INFO] check_user: Token verified successfully, user_id=user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-19 16:01:40] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-19 16:01:40] [INFO] db_stats: Fetching database statistics
+[2026-02-19 16:01:40] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 16:01:42] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 16:01:43] [INFO] db_stats: Fetching database statistics
+[2026-02-19 16:01:43] [INFO] get_signups: Fetching all signups
+[2026-02-19 16:01:43] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 16:01:43] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 16:01:45] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 16:01:45] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 16:01:45] [INFO] get_signups: Fetching all signups
+[2026-02-19 16:01:45] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 16:01:48] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 16:59:41] [INFO] get_signups: Fetching all signups
+[2026-02-19 16:59:41] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 16:59:42] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 16:59:43] [INFO] get_signups: Fetching all signups
+[2026-02-19 16:59:43] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 16:59:45] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 16:59:57] [INFO] get_signups: Fetching all signups
+[2026-02-19 16:59:57] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 16:59:57] [INFO] get_signups: Fetching all signups
+[2026-02-19 16:59:57] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 16:59:58] [INFO] db_stats: Fetching database statistics
+[2026-02-19 16:59:58] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 16:59:58] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 16:59:58] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:00:00] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 17:00:00] [INFO] db_stats: Fetching database statistics
+[2026-02-19 17:00:00] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:00:00] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 17:00:00] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:00:02] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 17:00:02] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:00:02] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:00:02] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:00:04] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:01:17] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:01:17] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:01:19] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:01:19] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:01:19] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:01:20] [INFO] db_stats: Fetching database statistics
+[2026-02-19 17:01:20] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 17:01:21] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:01:21] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 17:01:22] [INFO] db_stats: Fetching database statistics
+[2026-02-19 17:01:22] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:01:22] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:01:22] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 17:01:23] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:01:24] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 17:01:25] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:01:25] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:01:27] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:01:51] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:01:51] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:01:52] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:01:53] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:01:53] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:01:54] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:03:55] [INFO] Startup: Ensuring database schema...
+[2026-02-19 17:03:58] [INFO] ensure_schema: Schema and tables created successfully
+[2026-02-19 17:03:58] [INFO] Starting Flask app with Socket.IO on http://127.0.0.1:5000
+[2026-02-19 17:13:12] [INFO] check_user: Endpoint called
+[2026-02-19 17:13:12] [INFO] check_user: Token extracted, length=798
+[2026-02-19 17:13:12] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:13:12] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:13:12] [INFO] get_jwks_client: Cache expired or empty, fetching new JWKS
+[2026-02-19 17:13:12] [INFO] get_jwks_client: JWKS URL=https://handy-lion-22.clerk.accounts.dev/.well-known/jwks.json
+[2026-02-19 17:13:12] [INFO] get_jwks_client: JWKS client created and cached
+[2026-02-19 17:13:12] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:13:14] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:13:14] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:13:14] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39pxH5AZHrquHY104cFXusRPSyF, org_id=None, org_role=None
+[2026-02-19 17:13:14] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:13:14] [INFO] get_clerk_user_data: Fetching data for user_id=user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-19 17:13:15] [INFO] get_clerk_user_data: Successfully fetched data for user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-19 17:13:15] [INFO] verify_and_decode_clerk_token: Super admin detected - email=pavansaikoppana@gmail.com
+[2026-02-19 17:13:15] [INFO] verify_and_decode_clerk_token: Complete - user=pavansaikoppana@gmail.com, role=super-admin
+[2026-02-19 17:13:15] [INFO] check_user: Token verified successfully, user_id=user_39pxH5AZHrquHY104cFXusRPSyF
+[2026-02-19 17:13:15] [INFO] check_user: Response prepared - role=super-admin
+[2026-02-19 17:13:16] [INFO] db_stats: Fetching database statistics
+[2026-02-19 17:13:16] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 17:13:18] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 17:13:19] [INFO] db_stats: Fetching database statistics
+[2026-02-19 17:13:19] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:13:19] [INFO] get_db_stats: Fetching database statistics
+[2026-02-19 17:13:19] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:13:20] [INFO] get_db_stats: {'total': 24, 'pending': 3, 'approved': 21, 'rejected': 0}
+[2026-02-19 17:13:21] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:13:21] [INFO] get_signups: Fetching all signups
+[2026-02-19 17:13:21] [INFO] list_org_signups: Fetching all signups
+[2026-02-19 17:13:23] [INFO] list_org_signups: Found 24 signups
+[2026-02-19 17:14:16] [INFO] check_user: Endpoint called
+[2026-02-19 17:14:16] [INFO] check_user: Token extracted, length=893
+[2026-02-19 17:14:16] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:14:16] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:14:16] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:14:16] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:14:16] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:14:16] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:14:16] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:14:16] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:14:16] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:14:18] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:14:18] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:14:18] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:14:20] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:14:20] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:14:20] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:14:20] [INFO] check_user: Token verified successfully, user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:14:20] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-19 17:15:22] [INFO] check_user: Endpoint called
+[2026-02-19 17:15:22] [INFO] check_user: Token extracted, length=894
+[2026-02-19 17:15:22] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:15:22] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:15:22] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:15:22] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:15:22] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:15:22] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:15:22] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q4cFLmYpZPVElIKcJyrH2MfLO, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=member
+[2026-02-19 17:15:22] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:15:22] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q4cFLmYpZPVElIKcJyrH2MfLO
+[2026-02-19 17:15:24] [INFO] get_clerk_user_data: Successfully fetched data for user_39q4cFLmYpZPVElIKcJyrH2MfLO
+[2026-02-19 17:15:24] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:15:24] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:15:26] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:15:26] [INFO] verify_and_decode_clerk_token: Regular user - role=org:member
+[2026-02-19 17:15:26] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla091@gmail.com, role=org:member
+[2026-02-19 17:15:26] [INFO] check_user: Token verified successfully, user_id=user_39q4cFLmYpZPVElIKcJyrH2MfLO
+[2026-02-19 17:15:26] [INFO] check_user: Response prepared - role=org:member
+[2026-02-19 17:19:25] [INFO] check_user: Endpoint called
+[2026-02-19 17:19:25] [INFO] check_user: Token extracted, length=893
+[2026-02-19 17:19:25] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:19:25] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:19:25] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:19:25] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:19:25] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:19:25] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:19:25] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:19:25] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:19:25] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:19:26] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:19:26] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:19:26] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:19:28] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:19:28] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:19:28] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:19:28] [INFO] check_user: Token verified successfully, user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:19:28] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-19 17:33:21] [INFO] check_user: Endpoint called
+[2026-02-19 17:33:21] [INFO] check_user: Token extracted, length=893
+[2026-02-19 17:33:21] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:33:21] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:33:21] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:33:21] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:33:21] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:33:21] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:33:21] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:33:21] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:33:21] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:33:23] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:33:23] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:33:23] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:33:25] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:33:25] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:33:25] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:33:25] [INFO] check_user: Token verified successfully, user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:33:25] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-19 17:45:07] [INFO] check_user: Endpoint called
+[2026-02-19 17:45:07] [INFO] check_user: Token extracted, length=893
+[2026-02-19 17:45:07] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:45:07] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:45:07] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:45:07] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:45:07] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:45:07] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:45:07] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:45:07] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:45:07] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:09] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:09] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:45:09] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:10] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:10] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:45:10] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:45:10] [INFO] check_user: Token verified successfully, user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:10] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-19 17:45:12] [INFO] get_organization_users: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:12] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:45:12] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:45:12] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:45:12] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:45:12] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:45:12] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:45:12] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:45:12] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:45:12] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:13] [INFO] Client connected via Socket.IO
+[2026-02-19 17:45:14] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:14] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:45:14] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:15] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:15] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:45:15] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:45:15] [INFO] get_users_by_org: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:18] [INFO] get_users_by_org: Found 3 users
+[2026-02-19 17:45:19] [INFO] get_organization_users: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:19] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:45:19] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:45:19] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:45:19] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:45:19] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:45:19] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:45:19] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:45:19] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:45:19] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:20] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:45:20] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:45:20] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:21] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:21] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:45:21] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:45:21] [INFO] get_users_by_org: Fetching users for org org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:45:24] [INFO] get_users_by_org: Found 3 users
+[2026-02-19 17:52:31] [INFO] check_user: Endpoint called
+[2026-02-19 17:52:31] [INFO] check_user: Token extracted, length=893
+[2026-02-19 17:52:31] [INFO] verify_and_decode_clerk_token: Starting token verification
+[2026-02-19 17:52:31] [INFO] get_jwks_client: Checking JWKS cache
+[2026-02-19 17:52:31] [INFO] get_jwks_client: Using cached JWKS client
+[2026-02-19 17:52:31] [INFO] verify_and_decode_clerk_token: Token kid=ins_39nHwvhOwj65uasb0ALAKg16ebV
+[2026-02-19 17:52:31] [INFO] verify_and_decode_clerk_token: Public key retrieved from JWKS
+[2026-02-19 17:52:31] [INFO] verify_and_decode_clerk_token: Token verified, claims=['azp', 'exp', 'fva', 'iat', 'iss', 'nbf', 'o', 'sid', 'sts', 'sub', 'v']
+[2026-02-19 17:52:31] [INFO] verify_and_decode_clerk_token: Verified user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn, org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH, org_role=admin
+[2026-02-19 17:52:31] [INFO] verify_and_decode_clerk_token: Fetching user data from Clerk API
+[2026-02-19 17:52:31] [INFO] get_clerk_user_data: Fetching data for user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:52:33] [INFO] get_clerk_user_data: Successfully fetched data for user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:52:33] [INFO] verify_and_decode_clerk_token: Fetching org data from Clerk API
+[2026-02-19 17:52:33] [INFO] get_clerk_organization_data: Fetching data for org_id=org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:52:34] [INFO] get_clerk_organization_data: Successfully fetched data for org_39q3Cpx73SDHWPaszyBMVYfEYWH
+[2026-02-19 17:52:34] [INFO] verify_and_decode_clerk_token: Regular user - role=org:admin
+[2026-02-19 17:52:34] [INFO] verify_and_decode_clerk_token: Complete - user=nageswararaovutla7@gmail.com, role=org:admin
+[2026-02-19 17:52:34] [INFO] check_user: Token verified successfully, user_id=user_39q3ChkFMddgRgVR0F1K1A1seNn
+[2026-02-19 17:52:34] [INFO] check_user: Response prepared - role=org:admin
+[2026-02-19 17:53:10] [INFO] Client disconnected from Socket.IO
