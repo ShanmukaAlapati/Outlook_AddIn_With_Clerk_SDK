@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 CORS(app, resources={r"/api/*": {"origins": [
     "http://localhost:3000",
-    "https://outlook-addin-with-clerk-sdk.onrender-1.com",
+    "https://outlook-addin-with-clerk-sdk-1.onrender.com",
 ]}})
 
 def require_auth(f):

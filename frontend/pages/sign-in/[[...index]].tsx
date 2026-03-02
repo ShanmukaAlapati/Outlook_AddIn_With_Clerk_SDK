@@ -15,8 +15,7 @@ export default function SignInPage() {
       <SignIn
         routing="path"
         path="/sign-in"
-        afterSignInUrl="/app"
-        afterSignUpUrl="/app"
+        fallbackRedirectUrl="/app"
         signUpUrl="/sign-in"
       />
     </div>
