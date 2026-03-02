@@ -6,7 +6,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from clerk_backend_api import Clerk, AuthenticateRequestOptions
 
-
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -18,12 +17,18 @@ CORS(app, resources={r"/api/*": {"origins": [
     "http://localhost:3000",
     "https://localhost:3000",
     "https://outlook-addin-with-clerk-sdk.onrender.com",
+    "https://outlook-addin-with-clerk-sdk-1.onrender.com",
     "https://outlook.office.com",
 ]}})
 
-
 clerk = Clerk(bearer_auth=os.getenv("CLERK_SECRET_KEY", ""))
 
+AUTHORIZED_PARTIES = [
+    "http://localhost:3000",       # ✅ local Next.js dev
+    "https://localhost:3000",
+    "https://outlook-addin-with-clerk-sdk.onrender.com",
+    "https://outlook.office.com",
+]
 
 def require_auth(f):
     @wraps(f)
@@ -32,7 +37,7 @@ def require_auth(f):
             result = clerk.authenticate_request(
                 request,
                 AuthenticateRequestOptions(
-                    authorized_parties=["https://outlook-addin-with-clerk-sdk.onrender.com"]
+                    authorized_parties=AUTHORIZED_PARTIES
                 )
             )
             if not result.is_signed_in:
