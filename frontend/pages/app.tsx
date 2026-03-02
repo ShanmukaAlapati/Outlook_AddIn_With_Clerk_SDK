@@ -19,7 +19,21 @@ export default function App() {
   async function verify() {
     try {
       const token = await getToken();
+
+      // ── DEBUG: paste this in browser console output ──────────────
+      console.log("=== CLERK DEBUG ===");
+      console.log("token:", token);
+      console.log("token type:", typeof token);
+      console.log("token null?", token === null);
+      console.log("token substring:", token ? token.substring(0, 60) : "NULL");
+      // ─────────────────────────────────────────────────────────────
+
+      if (!token) throw new Error("Session not ready. Please sign in again.");
+
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
+      console.log("Posting to:", `${apiUrl}/api/check-user`);
+
       const res = await fetch(`${apiUrl}/api/check-user`, {
         method: "POST",
         headers: {
@@ -27,13 +41,17 @@ export default function App() {
           Authorization: `Bearer ${token}`,
         },
       });
-      if (!res.ok) throw new Error(`Server error ${res.status}`);
+
+      console.log("Response status:", res.status);
+      const body = await res.json();
+      console.log("Response body:", body);  // ← Flask returns the exact reason
+
+      if (!res.ok) throw new Error(body.error || `Server error ${res.status}`);
       setVerified(true);
     } catch (err: any) {
       setError(err.message);
     }
   }
-
   async function handleSignOut() {
     await signOut();
     window.location.href = "/sign-in";
@@ -52,7 +70,9 @@ export default function App() {
       <div style={{ padding: 24, fontFamily: "Arial, sans-serif" }}>
         <h2>Case Counsel</h2>
         <p style={{ color: "red", fontSize: 14 }}>Error: {error}</p>
-        <button onClick={verify}>Retry</button>
+        <button onClick={verify} style={{ marginTop: 8, cursor: "pointer" }}>
+          Retry
+        </button>
       </div>
     );
   }
