@@ -6,8 +6,13 @@ const nextConfig = {
       {
         source: "/(.*)",
         headers: [
-          { key: "X-Frame-Options", value: "SAMEORIGIN" },
-          { key: "X-Content-Type-Options", value: "nosniff" },
+          // ✅ Allow Outlook to embed in iframe
+          { key: "X-Frame-Options", value: "ALLOWALL" },
+          // ✅ Modern replacement for X-Frame-Options
+          {
+            key: "Content-Security-Policy",
+            value: "frame-ancestors *;",
+          },
         ],
       },
     ];
